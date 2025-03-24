@@ -1,0 +1,404 @@
+m255
+K4
+z2
+!s11f vlog 2020.4 2020.10, Oct 13 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dE:/MyCPU/mips_cpu_one_circle/quartus_prj/simulation/modelsim
+T_opt
+!s110 1742837630
+V``jb6hejTfYooO4gB@YW01
+04 6 4 work tb_top fast 0
+=1-18c04d46ec62-67e1977d-3d0-3eb4
+o-quiet -auto_acc_if_foreign -work work -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work +acc
+Z1 tCvgOpt 0
+n@_opt
+OL;O;2020.4;71
+vadder
+Z2 !s110 1742837628
+!i10b 1
+!s100 28n2IeiIfhzRb2[93GCNX3
+Z3 !s11b Dg1SIo80bB@j0V0VzS_@n1
+InRS0SZL]zChF`OGIBC;`I2
+R0
+w1742787938
+8E:/MyCPU/mips_cpu_one_circle/rtl/adder.v
+FE:/MyCPU/mips_cpu_one_circle/rtl/adder.v
+!i122 12
+Z4 L0 1 8
+Z5 VDg1SIo80bB@j0V0VzS_@n1
+Z6 OL;L;2020.4;71
+r1
+!s85 0
+31
+Z7 !s108 1742837628.000000
+!s107 E:/MyCPU/mips_cpu_one_circle/rtl/adder.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/MyCPU/mips_cpu_one_circle/rtl|E:/MyCPU/mips_cpu_one_circle/rtl/adder.v|
+!i113 0
+Z8 o-vlog01compat -work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z9 !s92 -vlog01compat -work work +incdir+E:/MyCPU/mips_cpu_one_circle/rtl -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+valu
+R2
+!i10b 1
+!s100 LF1Wa<QTHmf_MK`68=LLY0
+R3
+I>:[]n^afTh23LT<MGHUGK1
+R0
+w1742808260
+8E:/MyCPU/mips_cpu_one_circle/rtl/alu.v
+FE:/MyCPU/mips_cpu_one_circle/rtl/alu.v
+!i122 11
+L0 1 36
+R5
+R6
+r1
+!s85 0
+31
+R7
+!s107 E:/MyCPU/mips_cpu_one_circle/rtl/alu.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/MyCPU/mips_cpu_one_circle/rtl|E:/MyCPU/mips_cpu_one_circle/rtl/alu.v|
+!i113 0
+R8
+R9
+R1
+valudec
+R2
+!i10b 1
+!s100 `i4h[5ndZ5VCm[X;zf<0H0
+R3
+I[Gn2PC43nBgHdkHT6QkK]1
+R0
+w1742808314
+8E:/MyCPU/mips_cpu_one_circle/rtl/aludec.v
+FE:/MyCPU/mips_cpu_one_circle/rtl/aludec.v
+!i122 10
+L0 1 23
+R5
+R6
+r1
+!s85 0
+31
+R7
+!s107 E:/MyCPU/mips_cpu_one_circle/rtl/aludec.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/MyCPU/mips_cpu_one_circle/rtl|E:/MyCPU/mips_cpu_one_circle/rtl/aludec.v|
+!i113 0
+R8
+R9
+R1
+vcontroller
+R2
+!i10b 1
+!s100 nddC5c<@hE[TzBW_4J;>L0
+R3
+IOJWm?Cj`f9]cUKa@oS9^`0
+R0
+w1742787939
+8E:/MyCPU/mips_cpu_one_circle/rtl/controller.v
+FE:/MyCPU/mips_cpu_one_circle/rtl/controller.v
+!i122 9
+L0 1 41
+R5
+R6
+r1
+!s85 0
+31
+Z10 !s108 1742837627.000000
+!s107 E:/MyCPU/mips_cpu_one_circle/rtl/controller.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/MyCPU/mips_cpu_one_circle/rtl|E:/MyCPU/mips_cpu_one_circle/rtl/controller.v|
+!i113 0
+R8
+R9
+R1
+vdata_memory
+R2
+!i10b 1
+!s100 4ZMI33Fh_Ok_i[Yfl^8=g1
+R3
+IGG9:7cSL3iSR:o?f581QJ3
+R0
+w1742805459
+8E:/MyCPU/mips_cpu_one_circle/quartus_prj/ip_core/data_memory/data_memory.v
+FE:/MyCPU/mips_cpu_one_circle/quartus_prj/ip_core/data_memory/data_memory.v
+!i122 13
+L0 39 68
+R5
+R6
+r1
+!s85 0
+31
+R7
+!s107 E:/MyCPU/mips_cpu_one_circle/quartus_prj/ip_core/data_memory/data_memory.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/MyCPU/mips_cpu_one_circle/quartus_prj/ip_core/data_memory|E:/MyCPU/mips_cpu_one_circle/quartus_prj/ip_core/data_memory/data_memory.v|
+!i113 0
+R8
+!s92 -vlog01compat -work work +incdir+E:/MyCPU/mips_cpu_one_circle/quartus_prj/ip_core/data_memory -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+vdatapath
+Z11 !s110 1742837627
+!i10b 1
+!s100 ^][YP_QN7e7n1kPk?;X6S1
+R3
+I1gHP]ZKmoJM26jnfcVz7^2
+R0
+w1742808458
+8E:/MyCPU/mips_cpu_one_circle/rtl/datapath.v
+FE:/MyCPU/mips_cpu_one_circle/rtl/datapath.v
+!i122 8
+L0 2 124
+R5
+R6
+r1
+!s85 0
+31
+R10
+!s107 E:/MyCPU/mips_cpu_one_circle/rtl/datapath.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/MyCPU/mips_cpu_one_circle/rtl|E:/MyCPU/mips_cpu_one_circle/rtl/datapath.v|
+!i113 0
+R8
+R9
+R1
+vflopr
+R11
+!i10b 1
+!s100 8B>V9_ebeec4LIGX_F7=K2
+R3
+IOgz33ZNi`Q^GnP<IOGiTY1
+R0
+Z12 w1742837118
+8E:/MyCPU/mips_cpu_one_circle/rtl/flopr.v
+FE:/MyCPU/mips_cpu_one_circle/rtl/flopr.v
+!i122 7
+L0 1 16
+R5
+R6
+r1
+!s85 0
+31
+R10
+!s107 E:/MyCPU/mips_cpu_one_circle/rtl/flopr.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/MyCPU/mips_cpu_one_circle/rtl|E:/MyCPU/mips_cpu_one_circle/rtl/flopr.v|
+!i113 0
+R8
+R9
+R1
+vinstruction_memory
+R2
+!i10b 1
+!s100 OC@T3VVXh7;Kmn6=G2?3L3
+R3
+I:3Xc=fPQT0Jg`Q^]BRTD;0
+R0
+w1742805567
+8E:/MyCPU/mips_cpu_one_circle/quartus_prj/ip_core/instruction_memory/instruction_memory.v
+FE:/MyCPU/mips_cpu_one_circle/quartus_prj/ip_core/instruction_memory/instruction_memory.v
+!i122 14
+L0 39 69
+R5
+R6
+r1
+!s85 0
+31
+R7
+!s107 E:/MyCPU/mips_cpu_one_circle/quartus_prj/ip_core/instruction_memory/instruction_memory.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/MyCPU/mips_cpu_one_circle/quartus_prj/ip_core/instruction_memory|E:/MyCPU/mips_cpu_one_circle/quartus_prj/ip_core/instruction_memory/instruction_memory.v|
+!i113 0
+R8
+!s92 -vlog01compat -work work +incdir+E:/MyCPU/mips_cpu_one_circle/quartus_prj/ip_core/instruction_memory -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+vmaindec
+R11
+!i10b 1
+!s100 n;>d<Z13XdgLR`;JCd1PR1
+R3
+I8f0<b_^S^aGWW8A67TVbk2
+R0
+R12
+8E:/MyCPU/mips_cpu_one_circle/rtl/maindec.v
+FE:/MyCPU/mips_cpu_one_circle/rtl/maindec.v
+!i122 6
+L0 2 28
+R5
+R6
+r1
+!s85 0
+31
+R10
+!s107 E:/MyCPU/mips_cpu_one_circle/rtl/maindec.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/MyCPU/mips_cpu_one_circle/rtl|E:/MyCPU/mips_cpu_one_circle/rtl/maindec.v|
+!i113 0
+R8
+R9
+R1
+vmips
+R11
+!i10b 1
+!s100 44X;oQL0:UH=:47F[;<Nk0
+R3
+I?mfU3Y02SIQBN25Odj9V@0
+R0
+R12
+8E:/MyCPU/mips_cpu_one_circle/rtl/mips.v
+FE:/MyCPU/mips_cpu_one_circle/rtl/mips.v
+!i122 5
+L0 1 51
+R5
+R6
+r1
+!s85 0
+31
+R10
+!s107 E:/MyCPU/mips_cpu_one_circle/rtl/mips.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/MyCPU/mips_cpu_one_circle/rtl|E:/MyCPU/mips_cpu_one_circle/rtl/mips.v|
+!i113 0
+R8
+R9
+R1
+vmux2
+R11
+!i10b 1
+!s100 BI9:aPoQZQ[TMCQkH5Sgo2
+R3
+IZEdmeMIU6@kAfbEOVVF3I0
+R0
+w1742787942
+8E:/MyCPU/mips_cpu_one_circle/rtl/mux2.v
+FE:/MyCPU/mips_cpu_one_circle/rtl/mux2.v
+!i122 4
+L0 1 9
+R5
+R6
+r1
+!s85 0
+31
+Z13 !s108 1742837626.000000
+!s107 E:/MyCPU/mips_cpu_one_circle/rtl/mux2.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/MyCPU/mips_cpu_one_circle/rtl|E:/MyCPU/mips_cpu_one_circle/rtl/mux2.v|
+!i113 0
+R8
+R9
+R1
+vregfile
+Z14 !s110 1742837626
+!i10b 1
+!s100 BkK=GicRQ]OC=@<kU5QI>2
+R3
+IkC^C0T@`;T=X=UdeQUD^Z2
+R0
+w1742787943
+8E:/MyCPU/mips_cpu_one_circle/rtl/regfile.v
+FE:/MyCPU/mips_cpu_one_circle/rtl/regfile.v
+!i122 3
+L0 1 22
+R5
+R6
+r1
+!s85 0
+31
+R13
+!s107 E:/MyCPU/mips_cpu_one_circle/rtl/regfile.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/MyCPU/mips_cpu_one_circle/rtl|E:/MyCPU/mips_cpu_one_circle/rtl/regfile.v|
+!i113 0
+R8
+R9
+R1
+vshift_left_2
+R14
+!i10b 1
+!s100 B75^[6K=zKB7=RW:j]dC<3
+R3
+IMRVP1;R`C8agal6[NQQMW1
+R0
+Z15 w1742787944
+8E:/MyCPU/mips_cpu_one_circle/rtl/shift_left_2.v
+FE:/MyCPU/mips_cpu_one_circle/rtl/shift_left_2.v
+!i122 2
+L0 1 7
+R5
+R6
+r1
+!s85 0
+31
+R13
+!s107 E:/MyCPU/mips_cpu_one_circle/rtl/shift_left_2.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/MyCPU/mips_cpu_one_circle/rtl|E:/MyCPU/mips_cpu_one_circle/rtl/shift_left_2.v|
+!i113 0
+R8
+R9
+R1
+vsign_extend
+R14
+!i10b 1
+!s100 A>:CMAN7zkWBn`2YVXDES2
+R3
+IKX]9]hJMf5V3Xn[oX62@`3
+R0
+R15
+8E:/MyCPU/mips_cpu_one_circle/rtl/sign_extend.v
+FE:/MyCPU/mips_cpu_one_circle/rtl/sign_extend.v
+!i122 1
+R4
+R5
+R6
+r1
+!s85 0
+31
+R13
+!s107 E:/MyCPU/mips_cpu_one_circle/rtl/sign_extend.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/MyCPU/mips_cpu_one_circle/rtl|E:/MyCPU/mips_cpu_one_circle/rtl/sign_extend.v|
+!i113 0
+R8
+R9
+R1
+vtb_top
+!s110 1742837629
+!i10b 1
+!s100 >;D4[J=Zb>PVR>ZH1`COa2
+R3
+IK0Uki0lAIGe2L<K2Fj[Im3
+R0
+w1742814367
+8E:/MyCPU/mips_cpu_one_circle/quartus_prj/../sim/tb_top.v
+FE:/MyCPU/mips_cpu_one_circle/quartus_prj/../sim/tb_top.v
+!i122 15
+L0 2 38
+R5
+R6
+r1
+!s85 0
+31
+!s108 1742837629.000000
+!s107 E:/MyCPU/mips_cpu_one_circle/quartus_prj/../sim/tb_top.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/MyCPU/mips_cpu_one_circle/quartus_prj/../sim|E:/MyCPU/mips_cpu_one_circle/quartus_prj/../sim/tb_top.v|
+!i113 0
+R8
+!s92 -vlog01compat -work work +incdir+E:/MyCPU/mips_cpu_one_circle/quartus_prj/../sim -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+vtop
+R14
+!i10b 1
+!s100 f42SmP`;XP@NM9NJe5;3d3
+R3
+I778jONdXP9JjHc@gI7lMT2
+R0
+R12
+8E:/MyCPU/mips_cpu_one_circle/rtl/top.v
+FE:/MyCPU/mips_cpu_one_circle/rtl/top.v
+!i122 0
+L0 1 44
+R5
+R6
+r1
+!s85 0
+31
+R13
+!s107 E:/MyCPU/mips_cpu_one_circle/rtl/top.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/MyCPU/mips_cpu_one_circle/rtl|E:/MyCPU/mips_cpu_one_circle/rtl/top.v|
+!i113 0
+R8
+R9
+R1

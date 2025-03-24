@@ -1,0 +1,7 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="mips_cpu_one_circle">
+		<CBX_INST_ENTRY INSTANCE_NAME="|top|data_memory:data_memory_inst|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_dqg1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|top|instruction_memory:instruction_memory_inst|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_0ij1.tdf"/>
+	</PROJECT>
+</LOG_ROOT>
