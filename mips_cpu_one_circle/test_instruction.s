@@ -1,5 +1,5 @@
 # 测试指令
-        ASsembly		        Description	            Address	        Machine	
+#       Assembly		        Description	            Address	        Machine	
 main:	addi $2,$0,5	                # initialize $2=5	        0 	        20020005 	
         addi $3,$0,12	                # initialize $3=12	        4 	        2003000C	    
         addi $7,$3,-9			# initialize $7=3	        8 	        2067fff7	    
