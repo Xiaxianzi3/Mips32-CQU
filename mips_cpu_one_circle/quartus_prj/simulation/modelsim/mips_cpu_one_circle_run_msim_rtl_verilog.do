@@ -54,11 +54,11 @@ vlog -vlog01compat -work work +incdir+E:/MyCPU/git/mips_cpu_one_circle/rtl {E:/M
 vlog -vlog01compat -work work +incdir+E:/MyCPU/git/mips_cpu_one_circle/quartus_prj/ip_core/data_memory {E:/MyCPU/git/mips_cpu_one_circle/quartus_prj/ip_core/data_memory/data_memory.v}
 vlog -vlog01compat -work work +incdir+E:/MyCPU/git/mips_cpu_one_circle/quartus_prj/ip_core/instruction_memory {E:/MyCPU/git/mips_cpu_one_circle/quartus_prj/ip_core/instruction_memory/instruction_memory.v}
 
-vlog -vlog01compat -work work +incdir+E:/MyCPU/git/mips_cpu_one_circle/quartus_prj/../sim {E:/MyCPU/git/mips_cpu_one_circle/quartus_prj/../sim/tb_result.v}
+vlog -vlog01compat -work work +incdir+E:/MyCPU/git/mips_cpu_one_circle/quartus_prj/../sim {E:/MyCPU/git/mips_cpu_one_circle/quartus_prj/../sim/tb_top.v}
 
-vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs="+acc"  tb_result
+vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs="+acc"  tb_top
 
 add wave *
 view structure
 view signals
-run 1 us
+run 1 ms

@@ -10,7 +10,7 @@ z2
 cModel Technology
 dE:/MyCPU/mips_cpu_one_circle/quartus_prj/simulation/modelsim
 vlpm_abs
-Z0 !s110 1742873052
+Z0 !s110 1742875816
 !i10b 1
 !s100 0ITmjSi<Sej[_E1GW<XGW2
 Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
@@ -19,14 +19,14 @@ Z2 dE:/MyCPU/git/mips_cpu_one_circle/quartus_prj/simulation/modelsim
 Z3 w1371091762
 Z4 8e:/program files/quartus/eda/sim_lib/220model.v
 Z5 Fe:/program files/quartus/eda/sim_lib/220model.v
-!i122 44
+!i122 45
 L0 3448 44
 Z6 VDg1SIo80bB@j0V0VzS_@n1
 Z7 OL;L;2020.4;71
 r1
 !s85 0
 31
-Z8 !s108 1742873052.000000
+Z8 !s108 1742875815.000000
 !s107 e:/program files/quartus/eda/sim_lib/220model.v|
 Z9 !s90 -reportprogress|300|-vlog01compat|-work|lpm_ver|e:/program files/quartus/eda/sim_lib/220model.v|
 !i113 0
@@ -42,7 +42,7 @@ R2
 R3
 R4
 R5
-!i122 44
+!i122 45
 L0 2589 179
 R6
 R7
@@ -56,7 +56,7 @@ R9
 R10
 R11
 vlpm_and
-R0
+Z13 !s110 1742875815
 !i10b 1
 !s100 ;d_<Qi9^[H9dhPDNVDV>c1
 R1
@@ -65,7 +65,7 @@ R2
 R3
 R4
 R5
-!i122 44
+!i122 45
 L0 1665 62
 R6
 R7
@@ -88,7 +88,7 @@ R2
 R3
 R4
 R5
-!i122 44
+!i122 45
 L0 6659 53
 R6
 R7
@@ -102,7 +102,7 @@ R9
 R10
 R11
 vlpm_bustri
-R0
+R13
 !i10b 1
 !s100 GMc8lb:J5;fA5DAb2U0mg1
 R1
@@ -111,7 +111,7 @@ R2
 R3
 R4
 R5
-!i122 44
+!i122 45
 L0 1955 69
 R6
 R7
@@ -125,7 +125,7 @@ R9
 R10
 R11
 vlpm_clshift
-R0
+R13
 !i10b 1
 !s100 P8L[1c1n4STT_>WHb7]BQ2
 R1
@@ -134,7 +134,7 @@ R2
 R3
 R4
 R5
-!i122 44
+!i122 45
 L0 2304 267
 R6
 R7
@@ -157,7 +157,7 @@ R2
 R3
 R4
 R5
-!i122 44
+!i122 45
 L0 2795 157
 R6
 R7
@@ -171,7 +171,7 @@ R9
 R10
 R11
 vlpm_constant
-R0
+R13
 !i10b 1
 !s100 g0>`>LB=TPadoJR[_m4=^0
 R1
@@ -180,7 +180,7 @@ R2
 R3
 R4
 R5
-!i122 44
+!i122 45
 L0 1561 34
 R6
 R7
@@ -203,7 +203,7 @@ R2
 R3
 R4
 R5
-!i122 44
+!i122 45
 L0 3512 266
 R6
 R7
@@ -217,7 +217,7 @@ R9
 R10
 R11
 vlpm_decode
-R0
+R13
 !i10b 1
 !s100 a99;MZLB@iY]1XC7lAeBP2
 R1
@@ -226,7 +226,7 @@ R2
 R3
 R4
 R5
-!i122 44
+!i122 45
 L0 2176 109
 R6
 R7
@@ -240,7 +240,7 @@ R9
 R10
 R11
 vLPM_DEVICE_FAMILIES
-R0
+R13
 !i10b 1
 !s100 Yl=X1`a1JoAdMj44^8gSb0
 R1
@@ -249,7 +249,7 @@ R2
 R3
 R4
 R5
-!i122 44
+!i122 45
 L0 1367 177
 R6
 R7
@@ -273,7 +273,7 @@ R2
 R3
 R4
 R5
-!i122 44
+!i122 45
 L0 3241 188
 R6
 R7
@@ -296,7 +296,7 @@ R2
 R3
 R4
 R5
-!i122 44
+!i122 45
 L0 3920 201
 R6
 R7
@@ -319,7 +319,7 @@ R2
 R3
 R4
 R5
-!i122 44
+!i122 45
 L0 5367 313
 R6
 R7
@@ -342,7 +342,7 @@ R2
 R3
 R4
 R5
-!i122 44
+!i122 45
 L0 6424 105
 R6
 R7
@@ -365,7 +365,7 @@ R2
 R3
 R4
 R5
-!i122 44
+!i122 45
 L0 5987 418
 R6
 R7
@@ -388,7 +388,7 @@ R2
 R3
 R4
 R5
-!i122 44
+!i122 45
 L0 5698 69
 R6
 R7
@@ -411,7 +411,7 @@ R2
 R3
 R4
 R5
-!i122 44
+!i122 45
 L0 5785 184
 R6
 R7
@@ -425,7 +425,7 @@ R9
 R10
 R11
 vLPM_HINT_EVALUATION
-R0
+R13
 !i10b 1
 !s100 NPFR3z8=4fn>M;n>NV48<0
 R1
@@ -434,7 +434,7 @@ R2
 R3
 R4
 R5
-!i122 44
+!i122 45
 L0 1257 105
 R6
 R7
@@ -458,7 +458,7 @@ R2
 R3
 R4
 R5
-!i122 44
+!i122 45
 L0 6547 37
 R6
 R7
@@ -472,7 +472,7 @@ R9
 R10
 R11
 vlpm_inv
-R0
+R13
 !i10b 1
 !s100 06J_S>GMQB`BeNnnT8YBO3
 R1
@@ -481,7 +481,7 @@ R2
 R3
 R4
 R5
-!i122 44
+!i122 45
 L0 1612 35
 R6
 R7
@@ -504,7 +504,7 @@ R2
 R3
 R4
 R5
-!i122 44
+!i122 45
 L0 3796 103
 R6
 R7
@@ -518,7 +518,7 @@ R9
 R10
 R11
 vLPM_MEMORY_INITIALIZATION
-R0
+R13
 !i10b 1
 !s100 PJI5JUzbgPj;Fl1YIj_<A0
 R1
@@ -527,7 +527,7 @@ R2
 R3
 R4
 R5
-!i122 44
+!i122 45
 L0 77 1159
 R6
 R7
@@ -551,7 +551,7 @@ R2
 R3
 R4
 R5
-!i122 44
+!i122 45
 L0 2969 245
 R6
 R7
@@ -565,7 +565,7 @@ R9
 R10
 R11
 vlpm_mux
-R0
+R13
 !i10b 1
 !s100 ?gaCHW8;DPREmA0YFe7Mc1
 R1
@@ -574,7 +574,7 @@ R2
 R3
 R4
 R5
-!i122 44
+!i122 45
 L0 2041 117
 R6
 R7
@@ -588,7 +588,7 @@ R9
 R10
 R11
 vlpm_or
-R0
+R13
 !i10b 1
 !s100 0XI0J4<GC[^OHVKf;_NG:2
 R1
@@ -597,7 +597,7 @@ R2
 R3
 R4
 R5
-!i122 44
+!i122 45
 L0 1745 63
 R6
 R7
@@ -620,7 +620,7 @@ R2
 R3
 R4
 R5
-!i122 44
+!i122 45
 L0 6603 37
 R6
 R7
@@ -643,7 +643,7 @@ R2
 R3
 R4
 R5
-!i122 44
+!i122 45
 L0 4599 272
 R6
 R7
@@ -666,7 +666,7 @@ R2
 R3
 R4
 R5
-!i122 44
+!i122 45
 L0 4343 238
 R6
 R7
@@ -689,7 +689,7 @@ R2
 R3
 R4
 R5
-!i122 44
+!i122 45
 L0 4890 241
 R6
 R7
@@ -712,7 +712,7 @@ R2
 R3
 R4
 R5
-!i122 44
+!i122 45
 L0 5152 199
 R6
 R7
@@ -735,7 +735,7 @@ R2
 R3
 R4
 R5
-!i122 44
+!i122 45
 L0 4139 184
 R6
 R7
@@ -749,7 +749,7 @@ R9
 R10
 R11
 vlpm_xor
-R0
+R13
 !i10b 1
 !s100 BQnoL]8IzkF]N8lQ8ijBF0
 R1
@@ -758,7 +758,7 @@ R2
 R3
 R4
 R5
-!i122 44
+!i122 45
 L0 1826 63
 R6
 R7

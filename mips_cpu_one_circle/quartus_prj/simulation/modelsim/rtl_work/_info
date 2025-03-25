@@ -12,523 +12,523 @@ Z0 dE:/MyCPU/mips_cpu_one_circle/quartus_prj/simulation/modelsim
 T_opt
 !s110 1742837630
 V``jb6hejTfYooO4gB@YW01
-04 6 4 work tb_top fast 0
+Z1 04 6 4 work tb_top fast 0
 =1-18c04d46ec62-67e1977d-3d0-3eb4
-Z1 o-quiet -auto_acc_if_foreign -work work -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work +acc
-Z2 tCvgOpt 0
+Z2 o-quiet -auto_acc_if_foreign -work work -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work +acc
+Z3 tCvgOpt 0
 n@_opt
-Z3 OL;O;2020.4;71
+Z4 OL;O;2020.4;71
 R0
 T_opt1
-!s110 1742873067
-Vn5HYFUEUF6=bF1e<7T2RU1
-04 9 4 work tb_result fast 0
-=1-18c04d46ec62-67e221ea-3c7-5664
+!s110 1742875831
+VP_@=dCLl6iPD>Lg_B0A]K0
 R1
+=1-18c04d46ec62-67e22cb6-29f-6520
 R2
-n@_opt1
 R3
+n@_opt1
+R4
 vadder
-Z4 !s110 1742873065
+Z5 !s110 1742875829
 !i10b 1
 !s100 28n2IeiIfhzRb2[93GCNX3
-Z5 !s11b Dg1SIo80bB@j0V0VzS_@n1
+Z6 !s11b Dg1SIo80bB@j0V0VzS_@n1
 I=Ad_m6k3dmm5oF;GH^GYf1
-Z6 dE:/MyCPU/git/mips_cpu_one_circle/quartus_prj/simulation/modelsim
+Z7 dE:/MyCPU/git/mips_cpu_one_circle/quartus_prj/simulation/modelsim
 w1742787938
 8E:/MyCPU/git/mips_cpu_one_circle/rtl/adder.v
 FE:/MyCPU/git/mips_cpu_one_circle/rtl/adder.v
 !i122 17
-Z7 L0 1 8
-Z8 VDg1SIo80bB@j0V0VzS_@n1
-Z9 OL;L;2020.4;71
+Z8 L0 1 8
+Z9 VDg1SIo80bB@j0V0VzS_@n1
+Z10 OL;L;2020.4;71
 r1
 !s85 0
 31
-Z10 !s108 1742873065.000000
+Z11 !s108 1742875829.000000
 !s107 E:/MyCPU/git/mips_cpu_one_circle/rtl/adder.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/MyCPU/git/mips_cpu_one_circle/rtl|E:/MyCPU/git/mips_cpu_one_circle/rtl/adder.v|
 !i113 0
-Z11 o-vlog01compat -work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
-Z12 !s92 -vlog01compat -work work +incdir+E:/MyCPU/git/mips_cpu_one_circle/rtl -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
-R2
+Z12 o-vlog01compat -work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z13 !s92 -vlog01compat -work work +incdir+E:/MyCPU/git/mips_cpu_one_circle/rtl -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R3
 valu
-R4
+R5
 !i10b 1
 !s100 LF1Wa<QTHmf_MK`68=LLY0
-R5
-IXk@=zf@51H5=0?ZgN2Pio1
 R6
+IXk@=zf@51H5=0?ZgN2Pio1
+R7
 w1742808260
 8E:/MyCPU/git/mips_cpu_one_circle/rtl/alu.v
 FE:/MyCPU/git/mips_cpu_one_circle/rtl/alu.v
 !i122 16
 L0 1 36
-R8
 R9
+R10
 r1
 !s85 0
 31
-R10
+R11
 !s107 E:/MyCPU/git/mips_cpu_one_circle/rtl/alu.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/MyCPU/git/mips_cpu_one_circle/rtl|E:/MyCPU/git/mips_cpu_one_circle/rtl/alu.v|
 !i113 0
-R11
 R12
-R2
+R13
+R3
 valudec
-R4
+R5
 !i10b 1
 !s100 `i4h[5ndZ5VCm[X;zf<0H0
-R5
-IGSAKF7`e@iWjX::dNb5G02
 R6
+IGSAKF7`e@iWjX::dNb5G02
+R7
 w1742808314
 8E:/MyCPU/git/mips_cpu_one_circle/rtl/aludec.v
 FE:/MyCPU/git/mips_cpu_one_circle/rtl/aludec.v
 !i122 15
 L0 1 23
-R8
 R9
+R10
 r1
 !s85 0
 31
-R10
+R11
 !s107 E:/MyCPU/git/mips_cpu_one_circle/rtl/aludec.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/MyCPU/git/mips_cpu_one_circle/rtl|E:/MyCPU/git/mips_cpu_one_circle/rtl/aludec.v|
 !i113 0
-R11
 R12
-R2
+R13
+R3
 vbcd_8421
-Z13 !s110 1742873063
+Z14 !s110 1742875827
 !i10b 1
 !s100 8A]4Fh9[1WlDkXT=h3a^e0
-R5
-IISzM2?YGF[>Fl1DCaImg[1
 R6
-Z14 w1640252100
+IISzM2?YGF[>Fl1DCaImg[1
+R7
+Z15 w1640252100
 8E:/MyCPU/git/mips_cpu_one_circle/rtl/bcd_8421.v
 FE:/MyCPU/git/mips_cpu_one_circle/rtl/bcd_8421.v
 !i122 4
 L0 20 87
-R8
 R9
+R10
 r1
 !s85 0
 31
-Z15 !s108 1742873063.000000
+Z16 !s108 1742875826.000000
 !s107 E:/MyCPU/git/mips_cpu_one_circle/rtl/bcd_8421.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/MyCPU/git/mips_cpu_one_circle/rtl|E:/MyCPU/git/mips_cpu_one_circle/rtl/bcd_8421.v|
 !i113 0
-R11
 R12
-R2
+R13
+R3
 vcontroller
-R4
+Z17 !s110 1742875828
 !i10b 1
 !s100 nddC5c<@hE[TzBW_4J;>L0
-R5
-I:MW^G`^N`a`7hgf1UV?T43
 R6
+I:MW^G`^N`a`7hgf1UV?T43
+R7
 w1742787939
 8E:/MyCPU/git/mips_cpu_one_circle/rtl/controller.v
 FE:/MyCPU/git/mips_cpu_one_circle/rtl/controller.v
 !i122 14
 L0 1 41
-R8
 R9
+R10
 r1
 !s85 0
 31
-R10
+Z18 !s108 1742875828.000000
 !s107 E:/MyCPU/git/mips_cpu_one_circle/rtl/controller.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/MyCPU/git/mips_cpu_one_circle/rtl|E:/MyCPU/git/mips_cpu_one_circle/rtl/controller.v|
 !i113 0
-R11
 R12
-R2
+R13
+R3
 vdata_memory
-R4
+R5
 !i10b 1
 !s100 4ZMI33Fh_Ok_i[Yfl^8=g1
-R5
-IDX<Z<B3ST;cd;KPoK8J=f2
 R6
+IDX<Z<B3ST;cd;KPoK8J=f2
+R7
 w1742805459
 8E:/MyCPU/git/mips_cpu_one_circle/quartus_prj/ip_core/data_memory/data_memory.v
 FE:/MyCPU/git/mips_cpu_one_circle/quartus_prj/ip_core/data_memory/data_memory.v
 !i122 18
 L0 39 68
-R8
 R9
+R10
 r1
 !s85 0
 31
-R10
+R11
 !s107 E:/MyCPU/git/mips_cpu_one_circle/quartus_prj/ip_core/data_memory/data_memory.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/MyCPU/git/mips_cpu_one_circle/quartus_prj/ip_core/data_memory|E:/MyCPU/git/mips_cpu_one_circle/quartus_prj/ip_core/data_memory/data_memory.v|
 !i113 0
-R11
+R12
 !s92 -vlog01compat -work work +incdir+E:/MyCPU/git/mips_cpu_one_circle/quartus_prj/ip_core/data_memory -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
-R2
+R3
 vdatapath
-R4
+R17
 !i10b 1
 !s100 ^][YP_QN7e7n1kPk?;X6S1
-R5
-I57cM=`j4X4MYJ>nh5@5f`3
 R6
+I57cM=`j4X4MYJ>nh5@5f`3
+R7
 w1742808458
 8E:/MyCPU/git/mips_cpu_one_circle/rtl/datapath.v
 FE:/MyCPU/git/mips_cpu_one_circle/rtl/datapath.v
 !i122 13
 L0 2 124
-R8
 R9
+R10
 r1
 !s85 0
 31
-Z16 !s108 1742873064.000000
+R18
 !s107 E:/MyCPU/git/mips_cpu_one_circle/rtl/datapath.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/MyCPU/git/mips_cpu_one_circle/rtl|E:/MyCPU/git/mips_cpu_one_circle/rtl/datapath.v|
 !i113 0
-R11
 R12
-R2
+R13
+R3
 vflopr
-Z17 !s110 1742873064
+R17
 !i10b 1
 !s100 8B>V9_ebeec4LIGX_F7=K2
-R5
-INUILJP]C0CQ6k?H>_9O;B2
 R6
-Z18 w1742837118
+INUILJP]C0CQ6k?H>_9O;B2
+R7
+Z19 w1742837118
 8E:/MyCPU/git/mips_cpu_one_circle/rtl/flopr.v
 FE:/MyCPU/git/mips_cpu_one_circle/rtl/flopr.v
 !i122 12
 L0 1 16
-R8
 R9
+R10
 r1
 !s85 0
 31
-R16
+R18
 !s107 E:/MyCPU/git/mips_cpu_one_circle/rtl/flopr.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/MyCPU/git/mips_cpu_one_circle/rtl|E:/MyCPU/git/mips_cpu_one_circle/rtl/flopr.v|
 !i113 0
-R11
 R12
-R2
+R13
+R3
 vhc595_ctrl
-Z19 !s110 1742873062
+Z20 !s110 1742875826
 !i10b 1
 !s100 :j_<hUWB?@gA^UN@M`RVR3
-R5
-Ido752XTB4zShGRKRl[jgP2
 R6
-R14
+Ido752XTB4zShGRKRl[jgP2
+R7
+R15
 8E:/MyCPU/git/mips_cpu_one_circle/rtl/hc595_ctrl.v
 FE:/MyCPU/git/mips_cpu_one_circle/rtl/hc595_ctrl.v
 !i122 3
 L0 19 81
-R8
 R9
+R10
 r1
 !s85 0
 31
-Z20 !s108 1742873062.000000
+R16
 !s107 E:/MyCPU/git/mips_cpu_one_circle/rtl/hc595_ctrl.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/MyCPU/git/mips_cpu_one_circle/rtl|E:/MyCPU/git/mips_cpu_one_circle/rtl/hc595_ctrl.v|
 !i113 0
-R11
 R12
-R2
+R13
+R3
 vinstruction_memory
-Z21 !s110 1742873066
+R5
 !i10b 1
 !s100 OC@T3VVXh7;Kmn6=G2?3L3
-R5
-IUDAlH??cBJ2h@gZQ<<KX50
 R6
+IUDAlH??cBJ2h@gZQ<<KX50
+R7
 w1742805567
 8E:/MyCPU/git/mips_cpu_one_circle/quartus_prj/ip_core/instruction_memory/instruction_memory.v
 FE:/MyCPU/git/mips_cpu_one_circle/quartus_prj/ip_core/instruction_memory/instruction_memory.v
 !i122 19
 L0 39 69
-R8
 R9
+R10
 r1
 !s85 0
 31
-Z22 !s108 1742873066.000000
+R11
 !s107 E:/MyCPU/git/mips_cpu_one_circle/quartus_prj/ip_core/instruction_memory/instruction_memory.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/MyCPU/git/mips_cpu_one_circle/quartus_prj/ip_core/instruction_memory|E:/MyCPU/git/mips_cpu_one_circle/quartus_prj/ip_core/instruction_memory/instruction_memory.v|
 !i113 0
-R11
+R12
 !s92 -vlog01compat -work work +incdir+E:/MyCPU/git/mips_cpu_one_circle/quartus_prj/ip_core/instruction_memory -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
-R2
+R3
 vmaindec
 R17
 !i10b 1
 !s100 n;>d<Z13XdgLR`;JCd1PR1
-R5
-Ij7fXaGTm:`H`KHgQ0]NQ<3
 R6
-R18
+Ij7fXaGTm:`H`KHgQ0]NQ<3
+R7
+R19
 8E:/MyCPU/git/mips_cpu_one_circle/rtl/maindec.v
 FE:/MyCPU/git/mips_cpu_one_circle/rtl/maindec.v
 !i122 11
 L0 2 28
-R8
 R9
+R10
 r1
 !s85 0
 31
-R16
+R18
 !s107 E:/MyCPU/git/mips_cpu_one_circle/rtl/maindec.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/MyCPU/git/mips_cpu_one_circle/rtl|E:/MyCPU/git/mips_cpu_one_circle/rtl/maindec.v|
 !i113 0
-R11
 R12
-R2
+R13
+R3
 vmips
 R17
 !i10b 1
 !s100 44X;oQL0:UH=:47F[;<Nk0
-R5
-Ig`1^k9_D:Tm><2Lf@@R9=2
 R6
-R18
+Ig`1^k9_D:Tm><2Lf@@R9=2
+R7
+R19
 8E:/MyCPU/git/mips_cpu_one_circle/rtl/mips.v
 FE:/MyCPU/git/mips_cpu_one_circle/rtl/mips.v
 !i122 10
 L0 1 51
-R8
 R9
+R10
 r1
 !s85 0
 31
-R16
+R18
 !s107 E:/MyCPU/git/mips_cpu_one_circle/rtl/mips.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/MyCPU/git/mips_cpu_one_circle/rtl|E:/MyCPU/git/mips_cpu_one_circle/rtl/mips.v|
 !i113 0
-R11
 R12
-R2
+R13
+R3
 vmux2
 R17
 !i10b 1
 !s100 BI9:aPoQZQ[TMCQkH5Sgo2
-R5
-Ij2iFGHCXcB;1RF9<b1Q]G3
 R6
+Ij2iFGHCXcB;1RF9<b1Q]G3
+R7
 w1742787942
 8E:/MyCPU/git/mips_cpu_one_circle/rtl/mux2.v
 FE:/MyCPU/git/mips_cpu_one_circle/rtl/mux2.v
 !i122 9
 L0 1 9
-R8
 R9
+R10
 r1
 !s85 0
 31
-R16
+Z21 !s108 1742875827.000000
 !s107 E:/MyCPU/git/mips_cpu_one_circle/rtl/mux2.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/MyCPU/git/mips_cpu_one_circle/rtl|E:/MyCPU/git/mips_cpu_one_circle/rtl/mux2.v|
 !i113 0
-R11
 R12
-R2
+R13
+R3
 vpass_or_fail
-R19
+R20
 !i10b 1
 !s100 em2BK5zOjI]O?2<7Pc5b00
-R5
-I]ZRo`ge?Ue4mVGHWPZb6]1
 R6
+I]ZRo`ge?Ue4mVGHWPZb6]1
+R7
 w1742872990
 8E:/MyCPU/git/mips_cpu_one_circle/rtl/pass_or_fail.v
 FE:/MyCPU/git/mips_cpu_one_circle/rtl/pass_or_fail.v
 !i122 2
 L0 2 50
-R8
 R9
+R10
 r1
 !s85 0
 31
-R20
+R16
 !s107 E:/MyCPU/git/mips_cpu_one_circle/rtl/pass_or_fail.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/MyCPU/git/mips_cpu_one_circle/rtl|E:/MyCPU/git/mips_cpu_one_circle/rtl/pass_or_fail.v|
 !i113 0
-R11
 R12
-R2
+R13
+R3
 vregfile
-R17
+R14
 !i10b 1
 !s100 BkK=GicRQ]OC=@<kU5QI>2
-R5
-Ihm4L:iM<=AfLfaoKlalfK2
 R6
+Ihm4L:iM<=AfLfaoKlalfK2
+R7
 w1742787943
 8E:/MyCPU/git/mips_cpu_one_circle/rtl/regfile.v
 FE:/MyCPU/git/mips_cpu_one_circle/rtl/regfile.v
 !i122 8
 L0 1 22
-R8
 R9
+R10
 r1
 !s85 0
 31
-R15
+R21
 !s107 E:/MyCPU/git/mips_cpu_one_circle/rtl/regfile.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/MyCPU/git/mips_cpu_one_circle/rtl|E:/MyCPU/git/mips_cpu_one_circle/rtl/regfile.v|
 !i113 0
-R11
 R12
-R2
+R13
+R3
 vseg_595_dynamic
-R19
+R20
 !i10b 1
 !s100 j4A]nK4[:n?0hVk_O7W0b3
-R5
-IUF<;=GODiG7;eaGnc]<6z3
 R6
-R14
+IUF<;=GODiG7;eaGnc]<6z3
+R7
+R15
 8E:/MyCPU/git/mips_cpu_one_circle/rtl/seg_595_dynamic.v
 FE:/MyCPU/git/mips_cpu_one_circle/rtl/seg_595_dynamic.v
 !i122 1
 L0 20 57
-R8
 R9
+R10
 r1
 !s85 0
 31
-R20
+R16
 !s107 E:/MyCPU/git/mips_cpu_one_circle/rtl/seg_595_dynamic.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/MyCPU/git/mips_cpu_one_circle/rtl|E:/MyCPU/git/mips_cpu_one_circle/rtl/seg_595_dynamic.v|
 !i113 0
-R11
 R12
-R2
+R13
+R3
 vseg_dynamic
-R19
+R20
 !i10b 1
 !s100 7L^T]bOJfb^Ck_b@4`6@R2
-R5
-ISgi8E5UU_n?a5CL[=9VP32
 R6
-R14
+ISgi8E5UU_n?a5CL[=9VP32
+R7
+R15
 8E:/MyCPU/git/mips_cpu_one_circle/rtl/seg_dynamic.v
 FE:/MyCPU/git/mips_cpu_one_circle/rtl/seg_dynamic.v
 !i122 0
 L0 20 190
-R8
 R9
+R10
 r1
 !s85 0
 31
-R20
+R16
 !s107 E:/MyCPU/git/mips_cpu_one_circle/rtl/seg_dynamic.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/MyCPU/git/mips_cpu_one_circle/rtl|E:/MyCPU/git/mips_cpu_one_circle/rtl/seg_dynamic.v|
 !i113 0
-R11
 R12
-R2
-vshift_left_2
 R13
+R3
+vshift_left_2
+R14
 !i10b 1
 !s100 B75^[6K=zKB7=RW:j]dC<3
-R5
-I@EdU<Ee@iJg7h_R5XgG1T1
 R6
-Z23 w1742787944
+I@EdU<Ee@iJg7h_R5XgG1T1
+R7
+Z22 w1742787944
 8E:/MyCPU/git/mips_cpu_one_circle/rtl/shift_left_2.v
 FE:/MyCPU/git/mips_cpu_one_circle/rtl/shift_left_2.v
 !i122 7
 L0 1 7
-R8
 R9
+R10
 r1
 !s85 0
 31
-R15
+R21
 !s107 E:/MyCPU/git/mips_cpu_one_circle/rtl/shift_left_2.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/MyCPU/git/mips_cpu_one_circle/rtl|E:/MyCPU/git/mips_cpu_one_circle/rtl/shift_left_2.v|
 !i113 0
-R11
 R12
-R2
-vsign_extend
 R13
+R3
+vsign_extend
+R14
 !i10b 1
 !s100 A>:CMAN7zkWBn`2YVXDES2
-R5
-Io``=Y>:Sh=NP;[P0AMGi33
 R6
-R23
+Io``=Y>:Sh=NP;[P0AMGi33
+R7
+R22
 8E:/MyCPU/git/mips_cpu_one_circle/rtl/sign_extend.v
 FE:/MyCPU/git/mips_cpu_one_circle/rtl/sign_extend.v
 !i122 6
-R7
 R8
 R9
+R10
 r1
 !s85 0
 31
-R15
+R21
 !s107 E:/MyCPU/git/mips_cpu_one_circle/rtl/sign_extend.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/MyCPU/git/mips_cpu_one_circle/rtl|E:/MyCPU/git/mips_cpu_one_circle/rtl/sign_extend.v|
 !i113 0
-R11
 R12
-R2
-vtb_result
-R21
+R13
+R3
+vtb_top
+!s110 1742875830
 !i10b 1
-!s100 g3U=Tc@baz``9Ez`n;b^h2
-R5
-IQ:n0?Z5_n5W]3ISacnchB1
+!s100 >;D4[J=Zb>PVR>ZH1`COa2
 R6
-w1742872712
-8E:/MyCPU/git/mips_cpu_one_circle/quartus_prj/../sim/tb_result.v
-FE:/MyCPU/git/mips_cpu_one_circle/quartus_prj/../sim/tb_result.v
+IjUcNDMcjJ4=WaogCC3<en2
+R7
+w1742814367
+8E:/MyCPU/git/mips_cpu_one_circle/quartus_prj/../sim/tb_top.v
+FE:/MyCPU/git/mips_cpu_one_circle/quartus_prj/../sim/tb_top.v
 !i122 20
-L0 2 27
-R8
+L0 2 38
 R9
+R10
 r1
 !s85 0
 31
-R22
-!s107 E:/MyCPU/git/mips_cpu_one_circle/quartus_prj/../sim/tb_result.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/MyCPU/git/mips_cpu_one_circle/quartus_prj/../sim|E:/MyCPU/git/mips_cpu_one_circle/quartus_prj/../sim/tb_result.v|
+!s108 1742875830.000000
+!s107 E:/MyCPU/git/mips_cpu_one_circle/quartus_prj/../sim/tb_top.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/MyCPU/git/mips_cpu_one_circle/quartus_prj/../sim|E:/MyCPU/git/mips_cpu_one_circle/quartus_prj/../sim/tb_top.v|
 !i113 0
-R11
+R12
 !s92 -vlog01compat -work work +incdir+E:/MyCPU/git/mips_cpu_one_circle/quartus_prj/../sim -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
-R2
+R3
 vtop
-R13
+R14
 !i10b 1
 !s100 f42SmP`;XP@NM9NJe5;3d3
-R5
-IH]k;X7R]9KFb^m8b5Y<9b2
 R6
-R18
+IH]k;X7R]9KFb^m8b5Y<9b2
+R7
+R19
 8E:/MyCPU/git/mips_cpu_one_circle/rtl/top.v
 FE:/MyCPU/git/mips_cpu_one_circle/rtl/top.v
 !i122 5
 L0 1 44
-R8
 R9
+R10
 r1
 !s85 0
 31
-R15
+R21
 !s107 E:/MyCPU/git/mips_cpu_one_circle/rtl/top.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/MyCPU/git/mips_cpu_one_circle/rtl|E:/MyCPU/git/mips_cpu_one_circle/rtl/top.v|
 !i113 0
-R11
 R12
-R2
+R13
+R3
