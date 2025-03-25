@@ -1,4 +1,13 @@
-|top
+|pass_or_fail
+clk => clk.IN2
+rst => rst.IN2
+stcp <= seg_595_dynamic:seg_595_dynamic_inst.stcp
+shcp <= seg_595_dynamic:seg_595_dynamic_inst.shcp
+ds <= seg_595_dynamic:seg_595_dynamic_inst.ds
+oe <= seg_595_dynamic:seg_595_dynamic_inst.oe
+
+
+|pass_or_fail|top:top_inst
 clk => clk.IN2
 rst => rst.IN1
 writedata[0] <= writedata[0].DB_MAX_OUTPUT_PORT_TYPE
@@ -68,7 +77,7 @@ dataaddr[31] <= dataaddr[31].DB_MAX_OUTPUT_PORT_TYPE
 memwrite <= memwrite.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|top|mips:mips_inst
+|pass_or_fail|top:top_inst|mips:mips_inst
 clk => clk.IN1
 rst => rst.IN1
 instruction[0] => instruction[0].IN2
@@ -234,7 +243,7 @@ writedata[30] <= datapath:datapath_inst.writedata
 writedata[31] <= datapath:datapath_inst.writedata
 
 
-|top|mips:mips_inst|controller:controller_inst
+|pass_or_fail|top:top_inst|mips:mips_inst|controller:controller_inst
 op[0] => op[0].IN1
 op[1] => op[1].IN1
 op[2] => op[2].IN1
@@ -260,7 +269,7 @@ alucontrol[1] <= aludec:aludec_inst.alucontrol
 alucontrol[2] <= aludec:aludec_inst.alucontrol
 
 
-|top|mips:mips_inst|controller:controller_inst|maindec:maindec_inst
+|pass_or_fail|top:top_inst|mips:mips_inst|controller:controller_inst|maindec:maindec_inst
 op[0] => Decoder0.IN5
 op[1] => Decoder0.IN4
 op[2] => Decoder0.IN3
@@ -278,7 +287,7 @@ aluop[0] <= Decoder0.DB_MAX_OUTPUT_PORT_TYPE
 aluop[1] <= Decoder0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|top|mips:mips_inst|controller:controller_inst|aludec:aludec_inst
+|pass_or_fail|top:top_inst|mips:mips_inst|controller:controller_inst|aludec:aludec_inst
 funct[0] => Decoder0.IN5
 funct[1] => Decoder0.IN4
 funct[2] => Decoder0.IN3
@@ -294,7 +303,7 @@ alucontrol[1] <= alucontrol.DB_MAX_OUTPUT_PORT_TYPE
 alucontrol[2] <= Selector0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|top|mips:mips_inst|datapath:datapath_inst
+|pass_or_fail|top:top_inst|mips:mips_inst|datapath:datapath_inst
 clk => clk.IN2
 rst => rst.IN1
 memtoreg => memtoreg.IN1
@@ -470,7 +479,7 @@ writedata[30] <= writedata[30].DB_MAX_OUTPUT_PORT_TYPE
 writedata[31] <= writedata[31].DB_MAX_OUTPUT_PORT_TYPE
 
 
-|top|mips:mips_inst|datapath:datapath_inst|flopr:flopr_inst
+|pass_or_fail|top:top_inst|mips:mips_inst|datapath:datapath_inst|flopr:flopr_inst
 clk => q[0]~reg0.CLK
 clk => q[1]~reg0.CLK
 clk => q[2]~reg0.CLK
@@ -601,7 +610,7 @@ q[30] <= q[30]~reg0.DB_MAX_OUTPUT_PORT_TYPE
 q[31] <= q[31]~reg0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|top|mips:mips_inst|datapath:datapath_inst|adder:pc_plus_4_adder_inst
+|pass_or_fail|top:top_inst|mips:mips_inst|datapath:datapath_inst|adder:pc_plus_4_adder_inst
 a[0] => Add0.IN32
 a[1] => Add0.IN31
 a[2] => Add0.IN30
@@ -700,7 +709,7 @@ y[30] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
 y[31] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|top|mips:mips_inst|datapath:datapath_inst|shift_left_2:shift_left_2_inst
+|pass_or_fail|top:top_inst|mips:mips_inst|datapath:datapath_inst|shift_left_2:shift_left_2_inst
 a[0] => y[2].DATAIN
 a[1] => y[3].DATAIN
 a[2] => y[4].DATAIN
@@ -767,7 +776,7 @@ y[30] <= a[28].DB_MAX_OUTPUT_PORT_TYPE
 y[31] <= a[29].DB_MAX_OUTPUT_PORT_TYPE
 
 
-|top|mips:mips_inst|datapath:datapath_inst|adder:pc_branch_adder_inst
+|pass_or_fail|top:top_inst|mips:mips_inst|datapath:datapath_inst|adder:pc_branch_adder_inst
 a[0] => Add0.IN32
 a[1] => Add0.IN31
 a[2] => Add0.IN30
@@ -866,7 +875,7 @@ y[30] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
 y[31] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|top|mips:mips_inst|datapath:datapath_inst|mux2:pcbrmux_inst
+|pass_or_fail|top:top_inst|mips:mips_inst|datapath:datapath_inst|mux2:pcbrmux_inst
 d0[0] => y.DATAA
 d0[1] => y.DATAA
 d0[2] => y.DATAA
@@ -997,7 +1006,7 @@ y[30] <= y.DB_MAX_OUTPUT_PORT_TYPE
 y[31] <= y.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|top|mips:mips_inst|datapath:datapath_inst|mux2:pcmux_inst
+|pass_or_fail|top:top_inst|mips:mips_inst|datapath:datapath_inst|mux2:pcmux_inst
 d0[0] => y.DATAA
 d0[1] => y.DATAA
 d0[2] => y.DATAA
@@ -1128,7 +1137,7 @@ y[30] <= y.DB_MAX_OUTPUT_PORT_TYPE
 y[31] <= y.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|top|mips:mips_inst|datapath:datapath_inst|regfile:rf
+|pass_or_fail|top:top_inst|mips:mips_inst|datapath:datapath_inst|regfile:rf
 clk => rf.we_a.CLK
 clk => rf.waddr_a[4].CLK
 clk => rf.waddr_a[3].CLK
@@ -1330,7 +1339,7 @@ rd2[30] <= rd2.DB_MAX_OUTPUT_PORT_TYPE
 rd2[31] <= rd2.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|top|mips:mips_inst|datapath:datapath_inst|mux2:wr_mux_inst
+|pass_or_fail|top:top_inst|mips:mips_inst|datapath:datapath_inst|mux2:wr_mux_inst
 d0[0] => y.DATAA
 d0[1] => y.DATAA
 d0[2] => y.DATAA
@@ -1353,7 +1362,7 @@ y[3] <= y.DB_MAX_OUTPUT_PORT_TYPE
 y[4] <= y.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|top|mips:mips_inst|datapath:datapath_inst|mux2:resmux_inst
+|pass_or_fail|top:top_inst|mips:mips_inst|datapath:datapath_inst|mux2:resmux_inst
 d0[0] => y.DATAA
 d0[1] => y.DATAA
 d0[2] => y.DATAA
@@ -1484,7 +1493,7 @@ y[30] <= y.DB_MAX_OUTPUT_PORT_TYPE
 y[31] <= y.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|top|mips:mips_inst|datapath:datapath_inst|sign_extend:sign_extend_inst
+|pass_or_fail|top:top_inst|mips:mips_inst|datapath:datapath_inst|sign_extend:sign_extend_inst
 a[0] => y[0].DATAIN
 a[1] => y[1].DATAIN
 a[2] => y[2].DATAIN
@@ -1551,7 +1560,7 @@ y[30] <= a[15].DB_MAX_OUTPUT_PORT_TYPE
 y[31] <= a[15].DB_MAX_OUTPUT_PORT_TYPE
 
 
-|top|mips:mips_inst|datapath:datapath_inst|mux2:srcbmux_inst
+|pass_or_fail|top:top_inst|mips:mips_inst|datapath:datapath_inst|mux2:srcbmux_inst
 d0[0] => y.DATAA
 d0[1] => y.DATAA
 d0[2] => y.DATAA
@@ -1682,7 +1691,7 @@ y[30] <= y.DB_MAX_OUTPUT_PORT_TYPE
 y[31] <= y.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|top|mips:mips_inst|datapath:datapath_inst|alu:alu_inst
+|pass_or_fail|top:top_inst|mips:mips_inst|datapath:datapath_inst|alu:alu_inst
 a[0] => Add0.IN32
 a[0] => y.IN1
 a[0] => y.IN1
@@ -1988,7 +1997,7 @@ overflow <= Selector0.DB_MAX_OUTPUT_PORT_TYPE
 zero <= Equal0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|top|instruction_memory:instruction_memory_inst
+|pass_or_fail|top:top_inst|instruction_memory:instruction_memory_inst
 aclr => aclr.IN1
 address[0] => address[0].IN1
 address[1] => address[1].IN1
@@ -2066,7 +2075,7 @@ q[30] <= altsyncram:altsyncram_component.q_a
 q[31] <= altsyncram:altsyncram_component.q_a
 
 
-|top|instruction_memory:instruction_memory_inst|altsyncram:altsyncram_component
+|pass_or_fail|top:top_inst|instruction_memory:instruction_memory_inst|altsyncram:altsyncram_component
 wren_a => altsyncram_0ij1:auto_generated.wren_a
 rden_a => ~NO_FANOUT~
 wren_b => ~NO_FANOUT~
@@ -2163,7 +2172,7 @@ eccstatus[1] <= <GND>
 eccstatus[2] <= <GND>
 
 
-|top|instruction_memory:instruction_memory_inst|altsyncram:altsyncram_component|altsyncram_0ij1:auto_generated
+|pass_or_fail|top:top_inst|instruction_memory:instruction_memory_inst|altsyncram:altsyncram_component|altsyncram_0ij1:auto_generated
 aclr0 => ram_block1a0.CLR0
 aclr0 => ram_block1a1.CLR0
 aclr0 => ram_block1a2.CLR0
@@ -2582,7 +2591,7 @@ wren_a => ram_block1a30.PORTAWE
 wren_a => ram_block1a31.PORTAWE
 
 
-|top|data_memory:data_memory_inst
+|pass_or_fail|top:top_inst|data_memory:data_memory_inst
 aclr => aclr.IN1
 address[0] => address[0].IN1
 address[1] => address[1].IN1
@@ -2660,7 +2669,7 @@ q[30] <= altsyncram:altsyncram_component.q_a
 q[31] <= altsyncram:altsyncram_component.q_a
 
 
-|top|data_memory:data_memory_inst|altsyncram:altsyncram_component
+|pass_or_fail|top:top_inst|data_memory:data_memory_inst|altsyncram:altsyncram_component
 wren_a => altsyncram_dqg1:auto_generated.wren_a
 rden_a => ~NO_FANOUT~
 wren_b => ~NO_FANOUT~
@@ -2757,7 +2766,7 @@ eccstatus[1] <= <GND>
 eccstatus[2] <= <GND>
 
 
-|top|data_memory:data_memory_inst|altsyncram:altsyncram_component|altsyncram_dqg1:auto_generated
+|pass_or_fail|top:top_inst|data_memory:data_memory_inst|altsyncram:altsyncram_component|altsyncram_dqg1:auto_generated
 aclr0 => ram_block1a0.CLR0
 aclr0 => ram_block1a1.CLR0
 aclr0 => ram_block1a2.CLR0
@@ -3174,5 +3183,338 @@ wren_a => ram_block1a28.PORTAWE
 wren_a => ram_block1a29.PORTAWE
 wren_a => ram_block1a30.PORTAWE
 wren_a => ram_block1a31.PORTAWE
+
+
+|pass_or_fail|seg_595_dynamic:seg_595_dynamic_inst
+sys_clk => sys_clk.IN2
+sys_rst_n => sys_rst_n.IN2
+data[0] => data[0].IN1
+data[1] => data[1].IN1
+data[2] => data[2].IN1
+data[3] => data[3].IN1
+data[4] => data[4].IN1
+data[5] => data[5].IN1
+data[6] => data[6].IN1
+data[7] => data[7].IN1
+data[8] => data[8].IN1
+data[9] => data[9].IN1
+data[10] => data[10].IN1
+data[11] => data[11].IN1
+data[12] => data[12].IN1
+data[13] => data[13].IN1
+data[14] => data[14].IN1
+data[15] => data[15].IN1
+data[16] => data[16].IN1
+data[17] => data[17].IN1
+data[18] => data[18].IN1
+data[19] => data[19].IN1
+point[0] => point[0].IN1
+point[1] => point[1].IN1
+point[2] => point[2].IN1
+point[3] => point[3].IN1
+point[4] => point[4].IN1
+point[5] => point[5].IN1
+seg_en => seg_en.IN1
+sign => sign.IN1
+stcp <= hc595_ctrl:hc595_ctrl_inst.stcp
+shcp <= hc595_ctrl:hc595_ctrl_inst.shcp
+ds <= hc595_ctrl:hc595_ctrl_inst.ds
+oe <= hc595_ctrl:hc595_ctrl_inst.oe
+
+
+|pass_or_fail|seg_595_dynamic:seg_595_dynamic_inst|seg_dynamic:seg_dynamic_inst
+sys_clk => sys_clk.IN1
+sys_rst_n => sys_rst_n.IN1
+data[0] => data[0].IN1
+data[1] => data[1].IN1
+data[2] => data[2].IN1
+data[3] => data[3].IN1
+data[4] => data[4].IN1
+data[5] => data[5].IN1
+data[6] => data[6].IN1
+data[7] => data[7].IN1
+data[8] => data[8].IN1
+data[9] => data[9].IN1
+data[10] => data[10].IN1
+data[11] => data[11].IN1
+data[12] => data[12].IN1
+data[13] => data[13].IN1
+data[14] => data[14].IN1
+data[15] => data[15].IN1
+data[16] => data[16].IN1
+data[17] => data[17].IN1
+data[18] => data[18].IN1
+data[19] => data[19].IN1
+point[0] => always0.IN1
+point[0] => Mux4.IN7
+point[1] => always0.IN1
+point[1] => Mux4.IN6
+point[2] => always0.IN1
+point[2] => Mux4.IN5
+point[3] => always0.IN1
+point[3] => Mux4.IN4
+point[4] => always0.IN1
+point[4] => Mux4.IN3
+point[5] => always0.IN1
+point[5] => Mux4.IN2
+seg_en => always5.IN1
+sign => always0.IN1
+sign => always0.IN1
+sign => always0.IN1
+sign => always0.IN1
+sign => always0.IN1
+sign => always0.IN1
+sign => always0.IN1
+sign => always0.IN1
+sign => always0.IN1
+sel[0] <= sel[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+sel[1] <= sel[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+sel[2] <= sel[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+sel[3] <= sel[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+sel[4] <= sel[4]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+sel[5] <= sel[5]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+seg[0] <= seg[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+seg[1] <= seg[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+seg[2] <= seg[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+seg[3] <= seg[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+seg[4] <= seg[4]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+seg[5] <= seg[5]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+seg[6] <= seg[6]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+seg[7] <= seg[7]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|pass_or_fail|seg_595_dynamic:seg_595_dynamic_inst|seg_dynamic:seg_dynamic_inst|bcd_8421:bcd_8421_inst
+sys_clk => h_hun[0]~reg0.CLK
+sys_clk => h_hun[1]~reg0.CLK
+sys_clk => h_hun[2]~reg0.CLK
+sys_clk => h_hun[3]~reg0.CLK
+sys_clk => t_tho[0]~reg0.CLK
+sys_clk => t_tho[1]~reg0.CLK
+sys_clk => t_tho[2]~reg0.CLK
+sys_clk => t_tho[3]~reg0.CLK
+sys_clk => tho[0]~reg0.CLK
+sys_clk => tho[1]~reg0.CLK
+sys_clk => tho[2]~reg0.CLK
+sys_clk => tho[3]~reg0.CLK
+sys_clk => hun[0]~reg0.CLK
+sys_clk => hun[1]~reg0.CLK
+sys_clk => hun[2]~reg0.CLK
+sys_clk => hun[3]~reg0.CLK
+sys_clk => ten[0]~reg0.CLK
+sys_clk => ten[1]~reg0.CLK
+sys_clk => ten[2]~reg0.CLK
+sys_clk => ten[3]~reg0.CLK
+sys_clk => unit[0]~reg0.CLK
+sys_clk => unit[1]~reg0.CLK
+sys_clk => unit[2]~reg0.CLK
+sys_clk => unit[3]~reg0.CLK
+sys_clk => shift_flag.CLK
+sys_clk => data_shift[0].CLK
+sys_clk => data_shift[1].CLK
+sys_clk => data_shift[2].CLK
+sys_clk => data_shift[3].CLK
+sys_clk => data_shift[4].CLK
+sys_clk => data_shift[5].CLK
+sys_clk => data_shift[6].CLK
+sys_clk => data_shift[7].CLK
+sys_clk => data_shift[8].CLK
+sys_clk => data_shift[9].CLK
+sys_clk => data_shift[10].CLK
+sys_clk => data_shift[11].CLK
+sys_clk => data_shift[12].CLK
+sys_clk => data_shift[13].CLK
+sys_clk => data_shift[14].CLK
+sys_clk => data_shift[15].CLK
+sys_clk => data_shift[16].CLK
+sys_clk => data_shift[17].CLK
+sys_clk => data_shift[18].CLK
+sys_clk => data_shift[19].CLK
+sys_clk => data_shift[20].CLK
+sys_clk => data_shift[21].CLK
+sys_clk => data_shift[22].CLK
+sys_clk => data_shift[23].CLK
+sys_clk => data_shift[24].CLK
+sys_clk => data_shift[25].CLK
+sys_clk => data_shift[26].CLK
+sys_clk => data_shift[27].CLK
+sys_clk => data_shift[28].CLK
+sys_clk => data_shift[29].CLK
+sys_clk => data_shift[30].CLK
+sys_clk => data_shift[31].CLK
+sys_clk => data_shift[32].CLK
+sys_clk => data_shift[33].CLK
+sys_clk => data_shift[34].CLK
+sys_clk => data_shift[35].CLK
+sys_clk => data_shift[36].CLK
+sys_clk => data_shift[37].CLK
+sys_clk => data_shift[38].CLK
+sys_clk => data_shift[39].CLK
+sys_clk => data_shift[40].CLK
+sys_clk => data_shift[41].CLK
+sys_clk => data_shift[42].CLK
+sys_clk => data_shift[43].CLK
+sys_clk => cnt_shift[0].CLK
+sys_clk => cnt_shift[1].CLK
+sys_clk => cnt_shift[2].CLK
+sys_clk => cnt_shift[3].CLK
+sys_clk => cnt_shift[4].CLK
+sys_rst_n => data_shift[0].ACLR
+sys_rst_n => data_shift[1].ACLR
+sys_rst_n => data_shift[2].ACLR
+sys_rst_n => data_shift[3].ACLR
+sys_rst_n => data_shift[4].ACLR
+sys_rst_n => data_shift[5].ACLR
+sys_rst_n => data_shift[6].ACLR
+sys_rst_n => data_shift[7].ACLR
+sys_rst_n => data_shift[8].ACLR
+sys_rst_n => data_shift[9].ACLR
+sys_rst_n => data_shift[10].ACLR
+sys_rst_n => data_shift[11].ACLR
+sys_rst_n => data_shift[12].ACLR
+sys_rst_n => data_shift[13].ACLR
+sys_rst_n => data_shift[14].ACLR
+sys_rst_n => data_shift[15].ACLR
+sys_rst_n => data_shift[16].ACLR
+sys_rst_n => data_shift[17].ACLR
+sys_rst_n => data_shift[18].ACLR
+sys_rst_n => data_shift[19].ACLR
+sys_rst_n => data_shift[20].ACLR
+sys_rst_n => data_shift[21].ACLR
+sys_rst_n => data_shift[22].ACLR
+sys_rst_n => data_shift[23].ACLR
+sys_rst_n => data_shift[24].ACLR
+sys_rst_n => data_shift[25].ACLR
+sys_rst_n => data_shift[26].ACLR
+sys_rst_n => data_shift[27].ACLR
+sys_rst_n => data_shift[28].ACLR
+sys_rst_n => data_shift[29].ACLR
+sys_rst_n => data_shift[30].ACLR
+sys_rst_n => data_shift[31].ACLR
+sys_rst_n => data_shift[32].ACLR
+sys_rst_n => data_shift[33].ACLR
+sys_rst_n => data_shift[34].ACLR
+sys_rst_n => data_shift[35].ACLR
+sys_rst_n => data_shift[36].ACLR
+sys_rst_n => data_shift[37].ACLR
+sys_rst_n => data_shift[38].ACLR
+sys_rst_n => data_shift[39].ACLR
+sys_rst_n => data_shift[40].ACLR
+sys_rst_n => data_shift[41].ACLR
+sys_rst_n => data_shift[42].ACLR
+sys_rst_n => data_shift[43].ACLR
+sys_rst_n => h_hun[0]~reg0.ACLR
+sys_rst_n => h_hun[1]~reg0.ACLR
+sys_rst_n => h_hun[2]~reg0.ACLR
+sys_rst_n => h_hun[3]~reg0.ACLR
+sys_rst_n => t_tho[0]~reg0.ACLR
+sys_rst_n => t_tho[1]~reg0.ACLR
+sys_rst_n => t_tho[2]~reg0.ACLR
+sys_rst_n => t_tho[3]~reg0.ACLR
+sys_rst_n => tho[0]~reg0.ACLR
+sys_rst_n => tho[1]~reg0.ACLR
+sys_rst_n => tho[2]~reg0.ACLR
+sys_rst_n => tho[3]~reg0.ACLR
+sys_rst_n => hun[0]~reg0.ACLR
+sys_rst_n => hun[1]~reg0.ACLR
+sys_rst_n => hun[2]~reg0.ACLR
+sys_rst_n => hun[3]~reg0.ACLR
+sys_rst_n => ten[0]~reg0.ACLR
+sys_rst_n => ten[1]~reg0.ACLR
+sys_rst_n => ten[2]~reg0.ACLR
+sys_rst_n => ten[3]~reg0.ACLR
+sys_rst_n => unit[0]~reg0.ACLR
+sys_rst_n => unit[1]~reg0.ACLR
+sys_rst_n => unit[2]~reg0.ACLR
+sys_rst_n => unit[3]~reg0.ACLR
+sys_rst_n => cnt_shift[0].ACLR
+sys_rst_n => cnt_shift[1].ACLR
+sys_rst_n => cnt_shift[2].ACLR
+sys_rst_n => cnt_shift[3].ACLR
+sys_rst_n => cnt_shift[4].ACLR
+sys_rst_n => shift_flag.ACLR
+data[0] => data_shift.DATAB
+data[1] => data_shift.DATAB
+data[2] => data_shift.DATAB
+data[3] => data_shift.DATAB
+data[4] => data_shift.DATAB
+data[5] => data_shift.DATAB
+data[6] => data_shift.DATAB
+data[7] => data_shift.DATAB
+data[8] => data_shift.DATAB
+data[9] => data_shift.DATAB
+data[10] => data_shift.DATAB
+data[11] => data_shift.DATAB
+data[12] => data_shift.DATAB
+data[13] => data_shift.DATAB
+data[14] => data_shift.DATAB
+data[15] => data_shift.DATAB
+data[16] => data_shift.DATAB
+data[17] => data_shift.DATAB
+data[18] => data_shift.DATAB
+data[19] => data_shift.DATAB
+unit[0] <= unit[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+unit[1] <= unit[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+unit[2] <= unit[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+unit[3] <= unit[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+ten[0] <= ten[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+ten[1] <= ten[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+ten[2] <= ten[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+ten[3] <= ten[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+hun[0] <= hun[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+hun[1] <= hun[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+hun[2] <= hun[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+hun[3] <= hun[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+tho[0] <= tho[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+tho[1] <= tho[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+tho[2] <= tho[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+tho[3] <= tho[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+t_tho[0] <= t_tho[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+t_tho[1] <= t_tho[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+t_tho[2] <= t_tho[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+t_tho[3] <= t_tho[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+h_hun[0] <= h_hun[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+h_hun[1] <= h_hun[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+h_hun[2] <= h_hun[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+h_hun[3] <= h_hun[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|pass_or_fail|seg_595_dynamic:seg_595_dynamic_inst|hc595_ctrl:hc595_ctrl_inst
+sys_clk => ds~reg0.CLK
+sys_clk => shcp~reg0.CLK
+sys_clk => stcp~reg0.CLK
+sys_clk => cnt_bit[0].CLK
+sys_clk => cnt_bit[1].CLK
+sys_clk => cnt_bit[2].CLK
+sys_clk => cnt_bit[3].CLK
+sys_clk => cnt_4[0].CLK
+sys_clk => cnt_4[1].CLK
+sys_rst_n => stcp~reg0.ACLR
+sys_rst_n => shcp~reg0.ACLR
+sys_rst_n => ds~reg0.ACLR
+sys_rst_n => cnt_4[0].ACLR
+sys_rst_n => cnt_4[1].ACLR
+sys_rst_n => cnt_bit[0].ACLR
+sys_rst_n => cnt_bit[1].ACLR
+sys_rst_n => cnt_bit[2].ACLR
+sys_rst_n => cnt_bit[3].ACLR
+sys_rst_n => oe.DATAIN
+sel[0] => Mux0.IN19
+sel[1] => Mux0.IN18
+sel[2] => Mux0.IN17
+sel[3] => Mux0.IN16
+sel[4] => Mux0.IN15
+sel[5] => Mux0.IN14
+seg[0] => Mux0.IN6
+seg[1] => Mux0.IN7
+seg[2] => Mux0.IN8
+seg[3] => Mux0.IN9
+seg[4] => Mux0.IN10
+seg[5] => Mux0.IN11
+seg[6] => Mux0.IN12
+seg[7] => Mux0.IN13
+stcp <= stcp~reg0.DB_MAX_OUTPUT_PORT_TYPE
+shcp <= shcp~reg0.DB_MAX_OUTPUT_PORT_TYPE
+ds <= ds~reg0.DB_MAX_OUTPUT_PORT_TYPE
+oe <= sys_rst_n.DB_MAX_OUTPUT_PORT_TYPE
 
 

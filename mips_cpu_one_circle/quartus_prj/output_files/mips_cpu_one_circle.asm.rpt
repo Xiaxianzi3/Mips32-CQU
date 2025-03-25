@@ -1,5 +1,5 @@
 Assembler report for mips_cpu_one_circle
-Tue Mar 25 01:33:16 2025
+Tue Mar 25 12:00:51 2025
 Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Full Version
 
 
@@ -10,7 +10,7 @@ Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Full Ver
   2. Assembler Summary
   3. Assembler Settings
   4. Assembler Generated Files
-  5. Assembler Device Options: E:/MyCPU/mips_cpu_one_circle/quartus_prj/output_files/mips_cpu_one_circle.sof
+  5. Assembler Device Options: E:/MyCPU/git/mips_cpu_one_circle/quartus_prj/output_files/mips_cpu_one_circle.sof
   6. Assembler Messages
 
 
@@ -37,9 +37,9 @@ applicable agreement for further details.
 +---------------------------------------------------------------+
 ; Assembler Summary                                             ;
 +-----------------------+---------------------------------------+
-; Assembler Status      ; Successful - Tue Mar 25 01:33:16 2025 ;
+; Assembler Status      ; Successful - Tue Mar 25 12:00:51 2025 ;
 ; Revision Name         ; mips_cpu_one_circle                   ;
-; Top-level Entity Name ; top                                   ;
+; Top-level Entity Name ; pass_or_fail                          ;
 ; Family                ; Cyclone IV E                          ;
 ; Device                ; EP4CE10F17C8                          ;
 +-----------------------+---------------------------------------+
@@ -77,24 +77,24 @@ applicable agreement for further details.
 +-----------------------------------------------------------------------------+----------+---------------+
 
 
-+-------------------------------------------------------------------------------+
-; Assembler Generated Files                                                     ;
-+-------------------------------------------------------------------------------+
-; File Name                                                                     ;
-+-------------------------------------------------------------------------------+
-; E:/MyCPU/mips_cpu_one_circle/quartus_prj/output_files/mips_cpu_one_circle.sof ;
-+-------------------------------------------------------------------------------+
++-----------------------------------------------------------------------------------+
+; Assembler Generated Files                                                         ;
++-----------------------------------------------------------------------------------+
+; File Name                                                                         ;
++-----------------------------------------------------------------------------------+
+; E:/MyCPU/git/mips_cpu_one_circle/quartus_prj/output_files/mips_cpu_one_circle.sof ;
++-----------------------------------------------------------------------------------+
 
 
-+---------------------------------------------------------------------------------------------------------+
-; Assembler Device Options: E:/MyCPU/mips_cpu_one_circle/quartus_prj/output_files/mips_cpu_one_circle.sof ;
-+----------------+----------------------------------------------------------------------------------------+
-; Option         ; Setting                                                                                ;
-+----------------+----------------------------------------------------------------------------------------+
-; Device         ; EP4CE10F17C8                                                                           ;
-; JTAG usercode  ; 0x00231BA0                                                                             ;
-; Checksum       ; 0x00231BA0                                                                             ;
-+----------------+----------------------------------------------------------------------------------------+
++-------------------------------------------------------------------------------------------------------------+
+; Assembler Device Options: E:/MyCPU/git/mips_cpu_one_circle/quartus_prj/output_files/mips_cpu_one_circle.sof ;
++----------------+--------------------------------------------------------------------------------------------+
+; Option         ; Setting                                                                                    ;
++----------------+--------------------------------------------------------------------------------------------+
+; Device         ; EP4CE10F17C8                                                                               ;
+; JTAG usercode  ; 0x00245E61                                                                                 ;
+; Checksum       ; 0x00245E61                                                                                 ;
++----------------+--------------------------------------------------------------------------------------------+
 
 
 +--------------------+
@@ -103,13 +103,13 @@ applicable agreement for further details.
 Info: *******************************************************************
 Info: Running Quartus II 64-Bit Assembler
     Info: Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Full Version
-    Info: Processing started: Tue Mar 25 01:33:15 2025
+    Info: Processing started: Tue Mar 25 12:00:50 2025
 Info: Command: quartus_asm --read_settings_files=off --write_settings_files=off mips_cpu_one_circle -c mips_cpu_one_circle
 Info (115031): Writing out detailed assembly data for power analysis
 Info (115030): Assembler is generating device programming files
 Info: Quartus II 64-Bit Assembler was successful. 0 errors, 0 warnings
-    Info: Peak virtual memory: 4567 megabytes
-    Info: Processing ended: Tue Mar 25 01:33:16 2025
+    Info: Peak virtual memory: 4555 megabytes
+    Info: Processing ended: Tue Mar 25 12:00:51 2025
     Info: Elapsed time: 00:00:01
     Info: Total CPU time (on all processors): 00:00:01
 

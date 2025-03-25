@@ -27,7 +27,7 @@
 # Modifying modelsim.ini
 # vlog -vlog01compat -work altera_ver {e:/program files/quartus/eda/sim_lib/altera_primitives.v}
 # Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 01:33:34 on Mar 25,2025
+# Start time: 11:24:12 on Mar 25,2025
 # vlog -reportprogress 300 -vlog01compat -work altera_ver e:/program files/quartus/eda/sim_lib/altera_primitives.v 
 # -- Compiling module global
 # -- Compiling module carry
@@ -105,7 +105,7 @@
 # 	alt_iobuf_diff
 # 	alt_bidir_diff
 # 	alt_bidir_buf
-# End time: 01:33:34 on Mar 25,2025, Elapsed time: 0:00:00
+# End time: 11:24:12 on Mar 25,2025, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 # vlib verilog_libs/lpm_ver
@@ -117,7 +117,7 @@
 # Modifying modelsim.ini
 # vlog -vlog01compat -work lpm_ver {e:/program files/quartus/eda/sim_lib/220model.v}
 # Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 01:33:35 on Mar 25,2025
+# Start time: 11:24:12 on Mar 25,2025
 # vlog -reportprogress 300 -vlog01compat -work lpm_ver e:/program files/quartus/eda/sim_lib/220model.v 
 # -- Compiling module LPM_MEMORY_INITIALIZATION
 # -- Compiling module LPM_HINT_EVALUATION
@@ -181,7 +181,7 @@
 # 	lpm_inpad
 # 	lpm_outpad
 # 	lpm_bipad
-# End time: 01:33:35 on Mar 25,2025, Elapsed time: 0:00:00
+# End time: 11:24:12 on Mar 25,2025, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 # vlib verilog_libs/sgate_ver
@@ -193,7 +193,7 @@
 # Modifying modelsim.ini
 # vlog -vlog01compat -work sgate_ver {e:/program files/quartus/eda/sim_lib/sgate.v}
 # Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 01:33:36 on Mar 25,2025
+# Start time: 11:24:13 on Mar 25,2025
 # vlog -reportprogress 300 -vlog01compat -work sgate_ver e:/program files/quartus/eda/sim_lib/sgate.v 
 # -- Compiling module oper_add
 # -- Compiling module oper_addsub
@@ -235,7 +235,7 @@
 # 	oper_decoder
 # 	oper_bus_mux
 # 	oper_latch
-# End time: 01:33:36 on Mar 25,2025, Elapsed time: 0:00:00
+# End time: 11:24:13 on Mar 25,2025, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 # vlib verilog_libs/altera_mf_ver
@@ -247,7 +247,7 @@
 # Modifying modelsim.ini
 # vlog -vlog01compat -work altera_mf_ver {e:/program files/quartus/eda/sim_lib/altera_mf.v}
 # Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 01:33:36 on Mar 25,2025
+# Start time: 11:24:14 on Mar 25,2025
 # vlog -reportprogress 300 -vlog01compat -work altera_mf_ver e:/program files/quartus/eda/sim_lib/altera_mf.v 
 # -- Compiling module lcell
 # -- Compiling module ALTERA_MF_MEMORY_INITIALIZATION
@@ -372,7 +372,7 @@
 # 	altserial_flash_loader
 # 	sld_virtual_jtag_basic
 # 	altsource_probe
-# End time: 01:33:37 on Mar 25,2025, Elapsed time: 0:00:01
+# End time: 11:24:14 on Mar 25,2025, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 # vlib verilog_libs/altera_lnsim_ver
@@ -384,7 +384,7 @@
 # Modifying modelsim.ini
 # vlog -sv -work altera_lnsim_ver {e:/program files/quartus/eda/sim_lib/altera_lnsim.sv}
 # Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 01:33:38 on Mar 25,2025
+# Start time: 11:24:15 on Mar 25,2025
 # vlog -reportprogress 300 -sv -work altera_lnsim_ver e:/program files/quartus/eda/sim_lib/altera_lnsim.sv 
 # -- Compiling package altera_lnsim_functions
 # -- Compiling module altera_pll
@@ -1127,7 +1127,7 @@
 # 	generic_device_pll
 # 	altera_mult_add
 # 	altera_pll_reconfig_tasks
-# End time: 01:33:44 on Mar 25,2025, Elapsed time: 0:00:06
+# End time: 11:24:20 on Mar 25,2025, Elapsed time: 0:00:05
 # Errors: 0, Warnings: 685
 # 
 # vlib verilog_libs/cycloneive_ver
@@ -1139,7 +1139,7 @@
 # Modifying modelsim.ini
 # vlog -vlog01compat -work cycloneive_ver {e:/program files/quartus/eda/sim_lib/cycloneive_atoms.v}
 # Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 01:33:45 on Mar 25,2025
+# Start time: 11:24:21 on Mar 25,2025
 # vlog -reportprogress 300 -vlog01compat -work cycloneive_ver e:/program files/quartus/eda/sim_lib/cycloneive_atoms.v 
 # -- Compiling UDP CYCLONEIVE_PRIM_DFFE
 # -- Compiling UDP CYCLONEIVE_PRIM_DFFEAS
@@ -1215,185 +1215,239 @@
 # 	cycloneive_jtag
 # 	cycloneive_crcblock
 # 	cycloneive_oscillator
-# End time: 01:33:45 on Mar 25,2025, Elapsed time: 0:00:00
+# End time: 11:24:21 on Mar 25,2025, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 # if {[file exists rtl_work]} {
 # 	vdel -lib rtl_work -all
 # }
+# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt".  Locker is Xiaxianzi@DESKTOP-FG39D82.
 # vlib rtl_work
+# ** Warning: (vlib-34) Library already exists at "rtl_work".
+# Errors: 0, Warnings: 1
 # vmap work rtl_work
 # Model Technology ModelSim SE-64 vmap 2020.4 Lib Mapping Utility 2020.10 Oct 13 2020
 # vmap work rtl_work 
 # Modifying modelsim.ini
 # 
-# vlog -vlog01compat -work work +incdir+E:/MyCPU/mips_cpu_one_circle/rtl {E:/MyCPU/mips_cpu_one_circle/rtl/top.v}
+# vlog -vlog01compat -work work +incdir+E:/MyCPU/git/mips_cpu_one_circle/rtl {E:/MyCPU/git/mips_cpu_one_circle/rtl/seg_dynamic.v}
 # Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 01:33:46 on Mar 25,2025
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/MyCPU/mips_cpu_one_circle/rtl" E:/MyCPU/mips_cpu_one_circle/rtl/top.v 
+# Start time: 11:24:22 on Mar 25,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/MyCPU/git/mips_cpu_one_circle/rtl" E:/MyCPU/git/mips_cpu_one_circle/rtl/seg_dynamic.v 
+# -- Compiling module seg_dynamic
+# 
+# Top level modules:
+# 	seg_dynamic
+# End time: 11:24:22 on Mar 25,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+E:/MyCPU/git/mips_cpu_one_circle/rtl {E:/MyCPU/git/mips_cpu_one_circle/rtl/seg_595_dynamic.v}
+# Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 11:24:22 on Mar 25,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/MyCPU/git/mips_cpu_one_circle/rtl" E:/MyCPU/git/mips_cpu_one_circle/rtl/seg_595_dynamic.v 
+# -- Compiling module seg_595_dynamic
+# 
+# Top level modules:
+# 	seg_595_dynamic
+# End time: 11:24:22 on Mar 25,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+E:/MyCPU/git/mips_cpu_one_circle/rtl {E:/MyCPU/git/mips_cpu_one_circle/rtl/pass_or_fail.v}
+# Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 11:24:22 on Mar 25,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/MyCPU/git/mips_cpu_one_circle/rtl" E:/MyCPU/git/mips_cpu_one_circle/rtl/pass_or_fail.v 
+# -- Compiling module pass_or_fail
+# 
+# Top level modules:
+# 	pass_or_fail
+# End time: 11:24:22 on Mar 25,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+E:/MyCPU/git/mips_cpu_one_circle/rtl {E:/MyCPU/git/mips_cpu_one_circle/rtl/hc595_ctrl.v}
+# Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 11:24:22 on Mar 25,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/MyCPU/git/mips_cpu_one_circle/rtl" E:/MyCPU/git/mips_cpu_one_circle/rtl/hc595_ctrl.v 
+# -- Compiling module hc595_ctrl
+# 
+# Top level modules:
+# 	hc595_ctrl
+# End time: 11:24:22 on Mar 25,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+E:/MyCPU/git/mips_cpu_one_circle/rtl {E:/MyCPU/git/mips_cpu_one_circle/rtl/bcd_8421.v}
+# Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 11:24:23 on Mar 25,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/MyCPU/git/mips_cpu_one_circle/rtl" E:/MyCPU/git/mips_cpu_one_circle/rtl/bcd_8421.v 
+# -- Compiling module bcd_8421
+# 
+# Top level modules:
+# 	bcd_8421
+# End time: 11:24:23 on Mar 25,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+E:/MyCPU/git/mips_cpu_one_circle/rtl {E:/MyCPU/git/mips_cpu_one_circle/rtl/top.v}
+# Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 11:24:23 on Mar 25,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/MyCPU/git/mips_cpu_one_circle/rtl" E:/MyCPU/git/mips_cpu_one_circle/rtl/top.v 
 # -- Compiling module top
 # 
 # Top level modules:
 # 	top
-# End time: 01:33:46 on Mar 25,2025, Elapsed time: 0:00:00
+# End time: 11:24:23 on Mar 25,2025, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+E:/MyCPU/mips_cpu_one_circle/rtl {E:/MyCPU/mips_cpu_one_circle/rtl/sign_extend.v}
+# vlog -vlog01compat -work work +incdir+E:/MyCPU/git/mips_cpu_one_circle/rtl {E:/MyCPU/git/mips_cpu_one_circle/rtl/sign_extend.v}
 # Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 01:33:46 on Mar 25,2025
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/MyCPU/mips_cpu_one_circle/rtl" E:/MyCPU/mips_cpu_one_circle/rtl/sign_extend.v 
+# Start time: 11:24:23 on Mar 25,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/MyCPU/git/mips_cpu_one_circle/rtl" E:/MyCPU/git/mips_cpu_one_circle/rtl/sign_extend.v 
 # -- Compiling module sign_extend
 # 
 # Top level modules:
 # 	sign_extend
-# End time: 01:33:46 on Mar 25,2025, Elapsed time: 0:00:00
+# End time: 11:24:23 on Mar 25,2025, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+E:/MyCPU/mips_cpu_one_circle/rtl {E:/MyCPU/mips_cpu_one_circle/rtl/shift_left_2.v}
+# vlog -vlog01compat -work work +incdir+E:/MyCPU/git/mips_cpu_one_circle/rtl {E:/MyCPU/git/mips_cpu_one_circle/rtl/shift_left_2.v}
 # Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 01:33:46 on Mar 25,2025
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/MyCPU/mips_cpu_one_circle/rtl" E:/MyCPU/mips_cpu_one_circle/rtl/shift_left_2.v 
+# Start time: 11:24:23 on Mar 25,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/MyCPU/git/mips_cpu_one_circle/rtl" E:/MyCPU/git/mips_cpu_one_circle/rtl/shift_left_2.v 
 # -- Compiling module shift_left_2
 # 
 # Top level modules:
 # 	shift_left_2
-# End time: 01:33:46 on Mar 25,2025, Elapsed time: 0:00:00
+# End time: 11:24:23 on Mar 25,2025, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+E:/MyCPU/mips_cpu_one_circle/rtl {E:/MyCPU/mips_cpu_one_circle/rtl/regfile.v}
+# vlog -vlog01compat -work work +incdir+E:/MyCPU/git/mips_cpu_one_circle/rtl {E:/MyCPU/git/mips_cpu_one_circle/rtl/regfile.v}
 # Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 01:33:46 on Mar 25,2025
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/MyCPU/mips_cpu_one_circle/rtl" E:/MyCPU/mips_cpu_one_circle/rtl/regfile.v 
+# Start time: 11:24:23 on Mar 25,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/MyCPU/git/mips_cpu_one_circle/rtl" E:/MyCPU/git/mips_cpu_one_circle/rtl/regfile.v 
 # -- Compiling module regfile
 # 
 # Top level modules:
 # 	regfile
-# End time: 01:33:46 on Mar 25,2025, Elapsed time: 0:00:00
+# End time: 11:24:24 on Mar 25,2025, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+E:/MyCPU/mips_cpu_one_circle/rtl {E:/MyCPU/mips_cpu_one_circle/rtl/mux2.v}
+# vlog -vlog01compat -work work +incdir+E:/MyCPU/git/mips_cpu_one_circle/rtl {E:/MyCPU/git/mips_cpu_one_circle/rtl/mux2.v}
 # Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 01:33:46 on Mar 25,2025
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/MyCPU/mips_cpu_one_circle/rtl" E:/MyCPU/mips_cpu_one_circle/rtl/mux2.v 
+# Start time: 11:24:24 on Mar 25,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/MyCPU/git/mips_cpu_one_circle/rtl" E:/MyCPU/git/mips_cpu_one_circle/rtl/mux2.v 
 # -- Compiling module mux2
 # 
 # Top level modules:
 # 	mux2
-# End time: 01:33:47 on Mar 25,2025, Elapsed time: 0:00:01
+# End time: 11:24:24 on Mar 25,2025, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+E:/MyCPU/mips_cpu_one_circle/rtl {E:/MyCPU/mips_cpu_one_circle/rtl/mips.v}
+# vlog -vlog01compat -work work +incdir+E:/MyCPU/git/mips_cpu_one_circle/rtl {E:/MyCPU/git/mips_cpu_one_circle/rtl/mips.v}
 # Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 01:33:47 on Mar 25,2025
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/MyCPU/mips_cpu_one_circle/rtl" E:/MyCPU/mips_cpu_one_circle/rtl/mips.v 
+# Start time: 11:24:24 on Mar 25,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/MyCPU/git/mips_cpu_one_circle/rtl" E:/MyCPU/git/mips_cpu_one_circle/rtl/mips.v 
 # -- Compiling module mips
 # 
 # Top level modules:
 # 	mips
-# End time: 01:33:47 on Mar 25,2025, Elapsed time: 0:00:00
+# End time: 11:24:24 on Mar 25,2025, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+E:/MyCPU/mips_cpu_one_circle/rtl {E:/MyCPU/mips_cpu_one_circle/rtl/maindec.v}
+# vlog -vlog01compat -work work +incdir+E:/MyCPU/git/mips_cpu_one_circle/rtl {E:/MyCPU/git/mips_cpu_one_circle/rtl/maindec.v}
 # Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 01:33:47 on Mar 25,2025
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/MyCPU/mips_cpu_one_circle/rtl" E:/MyCPU/mips_cpu_one_circle/rtl/maindec.v 
+# Start time: 11:24:24 on Mar 25,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/MyCPU/git/mips_cpu_one_circle/rtl" E:/MyCPU/git/mips_cpu_one_circle/rtl/maindec.v 
 # -- Compiling module maindec
 # 
 # Top level modules:
 # 	maindec
-# End time: 01:33:47 on Mar 25,2025, Elapsed time: 0:00:00
+# End time: 11:24:24 on Mar 25,2025, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+E:/MyCPU/mips_cpu_one_circle/rtl {E:/MyCPU/mips_cpu_one_circle/rtl/flopr.v}
+# vlog -vlog01compat -work work +incdir+E:/MyCPU/git/mips_cpu_one_circle/rtl {E:/MyCPU/git/mips_cpu_one_circle/rtl/flopr.v}
 # Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 01:33:47 on Mar 25,2025
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/MyCPU/mips_cpu_one_circle/rtl" E:/MyCPU/mips_cpu_one_circle/rtl/flopr.v 
+# Start time: 11:24:24 on Mar 25,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/MyCPU/git/mips_cpu_one_circle/rtl" E:/MyCPU/git/mips_cpu_one_circle/rtl/flopr.v 
 # -- Compiling module flopr
 # 
 # Top level modules:
 # 	flopr
-# End time: 01:33:47 on Mar 25,2025, Elapsed time: 0:00:00
+# End time: 11:24:24 on Mar 25,2025, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+E:/MyCPU/mips_cpu_one_circle/rtl {E:/MyCPU/mips_cpu_one_circle/rtl/datapath.v}
+# vlog -vlog01compat -work work +incdir+E:/MyCPU/git/mips_cpu_one_circle/rtl {E:/MyCPU/git/mips_cpu_one_circle/rtl/datapath.v}
 # Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 01:33:47 on Mar 25,2025
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/MyCPU/mips_cpu_one_circle/rtl" E:/MyCPU/mips_cpu_one_circle/rtl/datapath.v 
+# Start time: 11:24:24 on Mar 25,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/MyCPU/git/mips_cpu_one_circle/rtl" E:/MyCPU/git/mips_cpu_one_circle/rtl/datapath.v 
 # -- Compiling module datapath
 # 
 # Top level modules:
 # 	datapath
-# End time: 01:33:47 on Mar 25,2025, Elapsed time: 0:00:00
+# End time: 11:24:25 on Mar 25,2025, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+E:/MyCPU/mips_cpu_one_circle/rtl {E:/MyCPU/mips_cpu_one_circle/rtl/controller.v}
+# vlog -vlog01compat -work work +incdir+E:/MyCPU/git/mips_cpu_one_circle/rtl {E:/MyCPU/git/mips_cpu_one_circle/rtl/controller.v}
 # Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 01:33:47 on Mar 25,2025
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/MyCPU/mips_cpu_one_circle/rtl" E:/MyCPU/mips_cpu_one_circle/rtl/controller.v 
+# Start time: 11:24:25 on Mar 25,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/MyCPU/git/mips_cpu_one_circle/rtl" E:/MyCPU/git/mips_cpu_one_circle/rtl/controller.v 
 # -- Compiling module controller
 # 
 # Top level modules:
 # 	controller
-# End time: 01:33:48 on Mar 25,2025, Elapsed time: 0:00:01
+# End time: 11:24:25 on Mar 25,2025, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+E:/MyCPU/mips_cpu_one_circle/rtl {E:/MyCPU/mips_cpu_one_circle/rtl/aludec.v}
+# vlog -vlog01compat -work work +incdir+E:/MyCPU/git/mips_cpu_one_circle/rtl {E:/MyCPU/git/mips_cpu_one_circle/rtl/aludec.v}
 # Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 01:33:48 on Mar 25,2025
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/MyCPU/mips_cpu_one_circle/rtl" E:/MyCPU/mips_cpu_one_circle/rtl/aludec.v 
+# Start time: 11:24:25 on Mar 25,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/MyCPU/git/mips_cpu_one_circle/rtl" E:/MyCPU/git/mips_cpu_one_circle/rtl/aludec.v 
 # -- Compiling module aludec
 # 
 # Top level modules:
 # 	aludec
-# End time: 01:33:48 on Mar 25,2025, Elapsed time: 0:00:00
+# End time: 11:24:25 on Mar 25,2025, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+E:/MyCPU/mips_cpu_one_circle/rtl {E:/MyCPU/mips_cpu_one_circle/rtl/alu.v}
+# vlog -vlog01compat -work work +incdir+E:/MyCPU/git/mips_cpu_one_circle/rtl {E:/MyCPU/git/mips_cpu_one_circle/rtl/alu.v}
 # Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 01:33:48 on Mar 25,2025
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/MyCPU/mips_cpu_one_circle/rtl" E:/MyCPU/mips_cpu_one_circle/rtl/alu.v 
+# Start time: 11:24:25 on Mar 25,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/MyCPU/git/mips_cpu_one_circle/rtl" E:/MyCPU/git/mips_cpu_one_circle/rtl/alu.v 
 # -- Compiling module alu
 # 
 # Top level modules:
 # 	alu
-# End time: 01:33:48 on Mar 25,2025, Elapsed time: 0:00:00
+# End time: 11:24:25 on Mar 25,2025, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+E:/MyCPU/mips_cpu_one_circle/rtl {E:/MyCPU/mips_cpu_one_circle/rtl/adder.v}
+# vlog -vlog01compat -work work +incdir+E:/MyCPU/git/mips_cpu_one_circle/rtl {E:/MyCPU/git/mips_cpu_one_circle/rtl/adder.v}
 # Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 01:33:48 on Mar 25,2025
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/MyCPU/mips_cpu_one_circle/rtl" E:/MyCPU/mips_cpu_one_circle/rtl/adder.v 
+# Start time: 11:24:25 on Mar 25,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/MyCPU/git/mips_cpu_one_circle/rtl" E:/MyCPU/git/mips_cpu_one_circle/rtl/adder.v 
 # -- Compiling module adder
 # 
 # Top level modules:
 # 	adder
-# End time: 01:33:48 on Mar 25,2025, Elapsed time: 0:00:00
+# End time: 11:24:25 on Mar 25,2025, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+E:/MyCPU/mips_cpu_one_circle/quartus_prj/ip_core/data_memory {E:/MyCPU/mips_cpu_one_circle/quartus_prj/ip_core/data_memory/data_memory.v}
+# vlog -vlog01compat -work work +incdir+E:/MyCPU/git/mips_cpu_one_circle/quartus_prj/ip_core/data_memory {E:/MyCPU/git/mips_cpu_one_circle/quartus_prj/ip_core/data_memory/data_memory.v}
 # Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 01:33:48 on Mar 25,2025
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/MyCPU/mips_cpu_one_circle/quartus_prj/ip_core/data_memory" E:/MyCPU/mips_cpu_one_circle/quartus_prj/ip_core/data_memory/data_memory.v 
+# Start time: 11:24:25 on Mar 25,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/MyCPU/git/mips_cpu_one_circle/quartus_prj/ip_core/data_memory" E:/MyCPU/git/mips_cpu_one_circle/quartus_prj/ip_core/data_memory/data_memory.v 
 # -- Compiling module data_memory
 # 
 # Top level modules:
 # 	data_memory
-# End time: 01:33:48 on Mar 25,2025, Elapsed time: 0:00:00
+# End time: 11:24:25 on Mar 25,2025, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+E:/MyCPU/mips_cpu_one_circle/quartus_prj/ip_core/instruction_memory {E:/MyCPU/mips_cpu_one_circle/quartus_prj/ip_core/instruction_memory/instruction_memory.v}
+# vlog -vlog01compat -work work +incdir+E:/MyCPU/git/mips_cpu_one_circle/quartus_prj/ip_core/instruction_memory {E:/MyCPU/git/mips_cpu_one_circle/quartus_prj/ip_core/instruction_memory/instruction_memory.v}
 # Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 01:33:48 on Mar 25,2025
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/MyCPU/mips_cpu_one_circle/quartus_prj/ip_core/instruction_memory" E:/MyCPU/mips_cpu_one_circle/quartus_prj/ip_core/instruction_memory/instruction_memory.v 
+# Start time: 11:24:26 on Mar 25,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/MyCPU/git/mips_cpu_one_circle/quartus_prj/ip_core/instruction_memory" E:/MyCPU/git/mips_cpu_one_circle/quartus_prj/ip_core/instruction_memory/instruction_memory.v 
 # -- Compiling module instruction_memory
 # 
 # Top level modules:
 # 	instruction_memory
-# End time: 01:33:48 on Mar 25,2025, Elapsed time: 0:00:00
+# End time: 11:24:26 on Mar 25,2025, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
-# vlog -vlog01compat -work work +incdir+E:/MyCPU/mips_cpu_one_circle/quartus_prj/../sim {E:/MyCPU/mips_cpu_one_circle/quartus_prj/../sim/tb_top.v}
+# vlog -vlog01compat -work work +incdir+E:/MyCPU/git/mips_cpu_one_circle/quartus_prj/../sim {E:/MyCPU/git/mips_cpu_one_circle/quartus_prj/../sim/tb_result.v}
 # Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 01:33:49 on Mar 25,2025
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/MyCPU/mips_cpu_one_circle/quartus_prj/../sim" E:/MyCPU/mips_cpu_one_circle/quartus_prj/../sim/tb_top.v 
-# -- Compiling module tb_top
+# Start time: 11:24:26 on Mar 25,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/MyCPU/git/mips_cpu_one_circle/quartus_prj/../sim" E:/MyCPU/git/mips_cpu_one_circle/quartus_prj/../sim/tb_result.v 
+# -- Compiling module tb_result
 # 
 # Top level modules:
-# 	tb_top
-# End time: 01:33:49 on Mar 25,2025, Elapsed time: 0:00:00
+# 	tb_result
+# End time: 11:24:26 on Mar 25,2025, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
-# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs="+acc"  tb_top
-# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs=""+acc"" tb_top 
-# Start time: 01:33:49 on Mar 25,2025
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs="+acc"  tb_result
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs=""+acc"" tb_result 
+# Start time: 11:24:26 on Mar 25,2025
 # ** Note: (vsim-3812) Design is being optimized...
-# Loading work.tb_top(fast)
+# Loading work.tb_result(fast)
+# Loading work.pass_or_fail(fast)
 # Loading work.top(fast)
 # Loading work.mips(fast)
 # Loading work.controller(fast)
@@ -1414,18 +1468,84 @@
 # Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION(fast)
 # Loading work.data_memory(fast)
 # Loading altera_mf_ver.altsyncram(fast__1)
-# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (32) for port 'address'. The port definition is at: E:/MyCPU/mips_cpu_one_circle/quartus_prj/ip_core/data_memory/data_memory.v(41).
-#    Time: 0 ps  Iteration: 0  Instance: /tb_top/top_inst/data_memory_inst File: E:/MyCPU/mips_cpu_one_circle/rtl/top.v Line: 33
+# Loading work.seg_595_dynamic(fast)
+# Loading work.seg_dynamic(fast)
+# Loading work.bcd_8421(fast)
+# Loading work.hc595_ctrl(fast)
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (32) for port 'address'. The port definition is at: E:/MyCPU/git/mips_cpu_one_circle/quartus_prj/ip_core/data_memory/data_memory.v(41).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_result/pass_or_fail/top_inst/data_memory_inst File: E:/MyCPU/git/mips_cpu_one_circle/rtl/top.v Line: 33
 # 
 # add wave *
 # view structure
 # .main_pane.structure.interior.cs.body.struct
 # view signals
 # .main_pane.objects.interior.cs.body.tree
-# run 1 ms
-# Simulation succeeded
-# ** Note: $stop    : E:/MyCPU/mips_cpu_one_circle/quartus_prj/../sim/tb_top.v(31)
-#    Time: 330 ns  Iteration: 1  Instance: /tb_top
-# Break in Module tb_top at E:/MyCPU/mips_cpu_one_circle/quartus_prj/../sim/tb_top.v line 31
-# End time: 01:39:57 on Mar 25,2025, Elapsed time: 0:06:08
+# run 1 us
+add wave -position insertpoint sim:/tb_result/pass_or_fail/*
+run
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-8009) Loading existing optimized design _opt1
+# Loading work.tb_result(fast)
+# Loading work.pass_or_fail(fast)
+# Loading work.top(fast)
+# Loading work.mips(fast)
+# Loading work.controller(fast)
+# Loading work.maindec(fast)
+# Loading work.aludec(fast)
+# Loading work.datapath(fast)
+# Loading work.flopr(fast)
+# Loading work.adder(fast)
+# Loading work.shift_left_2(fast)
+# Loading work.mux2(fast)
+# Loading work.regfile(fast)
+# Loading work.mux2(fast__1)
+# Loading work.sign_extend(fast)
+# Loading work.alu(fast)
+# Loading work.instruction_memory(fast)
+# Loading altera_mf_ver.altsyncram(fast)
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES(fast)
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION(fast)
+# Loading work.data_memory(fast)
+# Loading altera_mf_ver.altsyncram(fast__1)
+# Loading work.seg_595_dynamic(fast)
+# Loading work.seg_dynamic(fast)
+# Loading work.bcd_8421(fast)
+# Loading work.hc595_ctrl(fast)
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (32) for port 'address'. The port definition is at: E:/MyCPU/git/mips_cpu_one_circle/quartus_prj/ip_core/data_memory/data_memory.v(41).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_result/pass_or_fail/top_inst/data_memory_inst File: E:/MyCPU/git/mips_cpu_one_circle/rtl/top.v Line: 33
+run
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-8009) Loading existing optimized design _opt1
+# Loading work.tb_result(fast)
+# Loading work.pass_or_fail(fast)
+# Loading work.top(fast)
+# Loading work.mips(fast)
+# Loading work.controller(fast)
+# Loading work.maindec(fast)
+# Loading work.aludec(fast)
+# Loading work.datapath(fast)
+# Loading work.flopr(fast)
+# Loading work.adder(fast)
+# Loading work.shift_left_2(fast)
+# Loading work.mux2(fast)
+# Loading work.regfile(fast)
+# Loading work.mux2(fast__1)
+# Loading work.sign_extend(fast)
+# Loading work.alu(fast)
+# Loading work.instruction_memory(fast)
+# Loading altera_mf_ver.altsyncram(fast)
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES(fast)
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION(fast)
+# Loading work.data_memory(fast)
+# Loading altera_mf_ver.altsyncram(fast__1)
+# Loading work.seg_595_dynamic(fast)
+# Loading work.seg_dynamic(fast)
+# Loading work.bcd_8421(fast)
+# Loading work.hc595_ctrl(fast)
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (32) for port 'address'. The port definition is at: E:/MyCPU/git/mips_cpu_one_circle/quartus_prj/ip_core/data_memory/data_memory.v(41).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_result/pass_or_fail/top_inst/data_memory_inst File: E:/MyCPU/git/mips_cpu_one_circle/rtl/top.v Line: 33
+run
+# End time: 11:57:31 on Mar 25,2025, Elapsed time: 0:33:05
 # Errors: 0, Warnings: 1
