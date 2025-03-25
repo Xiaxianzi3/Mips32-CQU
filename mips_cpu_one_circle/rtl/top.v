@@ -23,7 +23,7 @@ mips mips_inst(
 
 instruction_memory	instruction_memory_inst (
 	.aclr       ( ~rst ),
-	.address    ( pc[7:0] ),
+	.address    ( pc[9:2]),    
 	.clock      ( ~clk ),
 	.data       (  ),
 	.wren       ( 1'b0 ),

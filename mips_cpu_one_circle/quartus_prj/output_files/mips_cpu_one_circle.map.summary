@@ -1,12 +1,12 @@
-Analysis & Synthesis Status : Successful - Tue Mar 25 12:00:32 2025
+Analysis & Synthesis Status : Successful - Tue Mar 25 18:29:42 2025
 Quartus II 64-Bit Version : 13.0.1 Build 232 06/12/2013 SP 1 SJ Full Version
 Revision Name : mips_cpu_one_circle
 Top-level Entity Name : pass_or_fail
 Family : Cyclone IV E
-Total logic elements : 2,854
-    Total combinational functions : 1,822
-    Dedicated logic registers : 1,177
-Total registers : 1177
+Total logic elements : 2,860
+    Total combinational functions : 1,828
+    Dedicated logic registers : 1,179
+Total registers : 1179
 Total pins : 6
 Total virtual pins : 0
 Total memory bits : 16,384
